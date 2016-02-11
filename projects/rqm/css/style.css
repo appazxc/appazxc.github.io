@@ -1,0 +1,61 @@
+html, body {
+
+}
+
+body {
+	font-family: 'Lobster', cursive, Monospace, sans-serif;
+	background: #FBF5FC url(../img/background-body.png) no-repeat left top;
+}
+
+
+.wrapper {
+	
+	width: 50%;
+	margin: auto;
+	margin-top: 5%;
+}
+
+h2 {
+	padding-top: 5px;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+#quote,
+#quote2 {
+	font-family: monospace, sans-serif;
+	padding: 15px 25px; 
+	min-height: 70px;
+	width: 70%;
+	margin: auto;
+	border: 2px solid rgb(203, 67, 53);
+	border-radius: 10px;
+	background-color: rgb(241, 148, 138);
+	vertical-align: middle;
+	text-align: center;
+	font-style: italic;
+}
+
+#button,
+#button2,
+#button3 {
+  display: block;
+  
+  height: 50px;
+  width: 150px;
+  margin: 20px auto;
+  color: rgb(39, 55, 70);
+  background-color: rgb(204, 209, 209);
+  border: 1px solid rgb(204, 209, 209);
+  text-align: center; 
+  font-size: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(100,100,100,.8);;
+}
+
+.button:hover {
+	cursor: pointer;
+}

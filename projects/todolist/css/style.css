@@ -1,0 +1,132 @@
+* {
+	/*border:  1px solid black;*/
+}
+
+body {
+	font-family: "PT Sans";
+
+}
+
+h1 {
+	text-align: center;
+	color: rgb(27, 79, 114);
+	text-shadow: 0 1px 0 rgb(251, 252, 252);
+	margin-bottom: 5px;
+}
+.wrapper {
+	width: 600px;
+	margin: auto;
+}
+
+.wrapper-todo {
+	width: 90%;
+	margin: auto;
+}
+
+input {
+	border: 2px solid rgb(191, 201, 202);
+	border-radius: 5px;
+	box-shadow: 1px 1px 0 rgba(166, 172, 175,0.5), 2px 5px 3px rgba(166, 172, 175,0.2);
+	width: 90%;
+	height: 30px;
+	margin: auto;
+	display: block;
+	padding: 20px 5px;
+	font-size: 1.2em;
+		-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+input:focus {
+	outline: none;
+	border: 2px solid rgb(95, 106, 106);
+}
+
+ul {
+	
+	list-style: none;
+	width: 90%;
+	margin: auto;
+	display: block;
+	margin-top: 20px;
+	padding: 0;
+
+}
+
+li {
+	display: block;
+	margin: 10px 0;
+
+}
+
+.maked,
+.list {
+	vertical-align: middle;
+}
+
+.maked-wrap {
+	width: 8%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.new-task-wrapper {
+	position: relative;
+}
+
+.destroy {
+	border: none;
+	background: none;
+	font-size: 1.3em;
+	color: rgb(160, 64, 0);
+	display: none;
+	position: absolute;
+	top: 0;
+	right: 10px;
+}
+
+.destroy::before {
+	content: "x";
+}
+
+.new-task-wrapper:hover .destroy {
+	display: block;
+}
+
+.maked {
+	float: right;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 50%;
+	border: 2px solid rgb(178, 186, 187);
+	background: rgb(229, 231, 233);
+}
+
+.maked-yes::before {
+	content: "";
+	width: 24px;
+	height: 24px;
+	background-color: rgb(33, 47, 61);
+	display: block;
+	border-radius: 50%;
+	margin: auto;
+	margin-top: 3px;
+	background-size: 5px;
+}
+
+.maked-yes::before .list {
+	text-decoration: line-through;
+}
+
+.list {
+	padding: 10px 5px;
+	display: inline-block;
+	width: 90%;
+	-webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+        box-sizing: border-box;
+	border: 2px solid rgb(191, 201, 202);
+	border-radius: 5px;
+	box-shadow: 1px 1px 0 rgba(166, 172, 175,0.5), 2px 5px 3px rgba(166, 172, 175,0.2);
+}

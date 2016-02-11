@@ -1,0 +1,67 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: "PT Sans", sans-serif;
+	font-size: 26px;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.wrapper {
+	background-color: rgb(244, 246, 247);
+	border-radius: 8px;
+	border: 3px solid rgb(46, 204, 113);
+	box-shadow: 0 3px 0 rgba(46, 204, 113, 0.5);
+	width: 400px;
+	margin: auto;
+	margin-top: 80px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1.2em;
+	color: rgb(110, 44, 0);
+}
+
+.wrapper-weather,
+.temp-icon-wrap {
+	width: 100%;
+}
+
+.temp,
+.icon {
+	width: 30%;
+	height: 70px;
+	display: inline-block;
+}
+
+.temp {
+	float: left;
+	line-height: 70px;
+	padding-left: 10px;
+}
+
+.icon {
+	float: left;
+	background: url(../img/icons.svg) no-repeat;
+	background-repeat: no-repeat;
+	background-size: 35em;
+}
+
+.temp-icon-wrap:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+}
+
+.city {
+	height: 70px;
+	line-height: 70px;
+	padding-left: 10px;
+
+
+}

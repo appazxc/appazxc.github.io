@@ -1,0 +1,250 @@
+. {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.-promote-delivery {
+    width: 78px;
+    height: 63px;
+    background-position: -5px -5px;
+}
+
+.-promote-discount {
+    width: 59px;
+    height: 72px;
+    background-position: -93px -5px;
+}
+
+.-promote-materials {
+    width: 44px;
+    height: 65px;
+    background-position: -5px -87px;
+}
+
+.-promote-technics {
+    width: 78px;
+    height: 62px;
+    background-position: -59px -87px;
+}
+
+.-promote-tool {
+    width: 75px;
+    height: 61px;
+    background-position: -162px -5px;
+}
+
+
+
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////
+
+
+
+
+. {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.-arrow-down {
+    width: 25px;
+    height: 14px;
+    background-position: -10px -10px;
+}
+
+.-arrow-left {
+    width: 22px;
+    height: 40px;
+    background-position: -55px -10px;
+}
+
+.-arrow-right {
+    width: 22px;
+    height: 40px;
+    background-position: -97px -10px;
+}
+
+.-arrow-up {
+    width: 25px;
+    height: 14px;
+    background-position: -139px -10px;
+}
+
+.-basket-added {
+    width: 16px;
+    height: 13px;
+    background-position: -184px -10px;
+}
+
+.-basket-focus {
+    width: 17px;
+    height: 16px;
+    background-position: -220px -10px;
+}
+
+.-basket-inactive {
+    width: 17px;
+    height: 16px;
+    background-position: -10px -46px;
+}
+
+.-checkbox {
+    width: 23px;
+    height: 23px;
+    background-position: -139px -46px;
+}
+
+.-checkbox-active {
+    width: 27px;
+    height: 23px;
+    background-position: -182px -46px;
+}
+
+.-favorite-focus {
+    width: 14px;
+    height: 16px;
+    background-position: -229px -46px;
+}
+
+.-favorite-inactive {
+    width: 14px;
+    height: 16px;
+    background-position: -10px -82px;
+}
+
+.-fb {
+    width: 42px;
+    height: 42px;
+    background-position: -44px -89px;
+}
+
+.-fb-active {
+    width: 42px;
+    height: 42px;
+    background-position: -106px -89px;
+}
+
+.-instagram {
+    width: 42px;
+    height: 42px;
+    background-position: -168px -89px;
+}
+
+.-instagram-active {
+    width: 42px;
+    height: 42px;
+    background-position: -10px -151px;
+}
+
+.-login-hover {
+    width: 20px;
+    height: 17px;
+    background-position: -230px -82px;
+}
+
+.-login-inactive {
+    width: 20px;
+    height: 17px;
+    background-position: -230px -119px;
+}
+
+.-new-flag {
+    width: 60px;
+    height: 59px;
+    background-position: -72px -156px;
+}
+
+.-radio {
+    width: 25px;
+    height: 25px;
+    background-position: -152px -151px;
+}
+
+.-radio-active {
+    width: 25px;
+    height: 25px;
+    background-position: -197px -156px;
+}
+
+.-search-focus {
+    width: 17px;
+    height: 17px;
+    background-position: -152px -201px;
+}
+
+.-search-hover {
+    width: 17px;
+    height: 17px;
+    background-position: -189px -201px;
+}
+
+.-search-inactive {
+    width: 17px;
+    height: 17px;
+    background-position: -226px -201px;
+}
+
+.-sort-down-active {
+    width: 9px;
+    height: 9px;
+    background-position: -10px -119px;
+}
+
+.-sort-down-hover {
+    width: 11px;
+    height: 10px;
+    background-position: -10px -238px;
+}
+
+.-sort-down-inactive {
+    width: 11px;
+    height: 10px;
+    background-position: -41px -238px;
+}
+
+.-sort-up-active {
+    width: 11px;
+    height: 10px;
+    background-position: -72px -238px;
+}
+
+.-sort-up-hover {
+    width: 11px;
+    height: 10px;
+    background-position: -103px -238px;
+}
+
+.-sort-up-inactive {
+    width: 11px;
+    height: 10px;
+    background-position: -134px -238px;
+}
+
+.-user-hover {
+    width: 20px;
+    height: 18px;
+    background-position: -263px -10px;
+}
+
+.-user-inactive {
+    width: 20px;
+    height: 18px;
+    background-position: -270px -48px;
+}
+
+.-vk {
+    width: 41px;
+    height: 42px;
+    background-position: -165px -238px;
+}
+
+.-vk-active {
+    width: 41px;
+    height: 42px;
+    background-position: -226px -238px;
+}

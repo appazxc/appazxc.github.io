@@ -1,0 +1,171 @@
+* {
+	/*border: 1px solid black;*/
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background: rgb(39, 174, 96);
+	font-family: monospace, sans-serif;
+}
+
+
+.twitch-wrapper {
+	width: 400px;
+	padding-bottom: 15px;
+	margin: auto;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	background: rgb(35, 155, 86);
+	border-radius: 8px;
+	position: relative;
+}
+
+.twitch-wrapper::before {
+	content: "FCC Twitch Status";
+	font-weight: bold;
+	font-size: 1.3em;
+	display: block;
+	position: absolute;
+	top: -35px;
+	left: 100px;
+}
+
+.button-wrapper {
+	font-size: 0;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+button {
+	border: none;
+	font-size: 16px;
+	background: rgb(243, 156, 18);
+	width: 33%;
+	height: 40px;
+	display: inline-block;
+	margin-left: 1px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	position: relative;
+	transition: all 0.3s;
+	outline: none;
+}
+
+button:hover,
+button:focus {
+	background: rgb(185, 119, 14);
+}
+
+button:focus::after {
+	content: "";
+	left: 45px;
+	width: 0;
+	height: 0;
+	border-top: 10px solid rgb(185, 119, 14);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	position:absolute;
+	bottom: -10px;
+}
+
+button:first-child {
+	margin-left: 1px;
+}
+
+.hide {
+	display: none;
+}
+
+input {
+	border: none;
+	width: 95%;
+	padding: 5px;
+	display: block;
+	margin: auto;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background: rgb(229, 231, 233);
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.channel {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.container-channels {
+		position: relative;
+
+}
+.channels-wrapper {
+	overflow: hidden;
+	max-height: 500px;
+
+
+}
+
+.scroll {
+	display: block;
+	border-radius: 25px;
+	height: 0px;
+	width: 8px;
+	background-color: black;
+	position: absolute;
+	right: 3px;
+	top: 2px;
+	z-index: 5;
+}
+
+.channel-wrapper {
+	margin: 7px 0;
+	position: relative;
+
+}
+
+.icon {
+	width: 50px;
+	height:50px;
+	margin-left: 15px;
+	border-radius: 50%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.channel-name {
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+.channel-name a {
+	color: inherit;
+	text-decoration: none;
+}
+.channel-descr {
+	position: absolute;
+	bottom: 5px;
+	left: 75px;
+	font-size: 0.6em;
+}
+
+.status {
+	background: url(../img/emotions.png) no-repeat;
+	background-size: ;
+	width: 30px;
+	height:30px;
+	background-size: 4em;
+	position: absolute;
+	top: 12px;
+	right: 20px;
+}
+
+.status-offline {
+	background-position: -34px 0px;
+}
