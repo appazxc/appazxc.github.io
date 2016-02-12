@@ -1,0 +1,2552 @@
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+/* line 9, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 29, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 40, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 47, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/*! normalize.css v3.0.0 | Base | MIT License | git.io/normalize */
+/* line 11, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 19, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+body {
+  margin: 0;
+}
+
+/*! normalize.css v3.0.0 | Links | MIT License | git.io/normalize */
+/* line 9, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+a {
+  background: transparent;
+}
+
+/* line 15, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
+/* line 9, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 15, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 22, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 29, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 36, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 43, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 49, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 57, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 61, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/*! normalize.css v3.0.0 | Embedded Content | MIT License | git.io/normalize */
+/* line 9, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
+img {
+  border: 0;
+}
+
+/* line 15, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*! normalize.css v3.0.0 | Figures | MIT License | git.io/normalize */
+/* line 9, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 15, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 23, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 29, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/*! normalize.css v3.0.0 | Forms | MIT License | git.io/normalize */
+/* line 15, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 27, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button {
+  overflow: visible;
+}
+
+/* line 36, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 47, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 57, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 64, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 73, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input {
+  line-height: normal;
+}
+
+/* line 83, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 93, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 102, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 113, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 120, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 129, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 136, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 143, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/*! normalize.css v3.0.0 | Tables | MIT License | git.io/normalize */
+/* line 9, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 14, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+td,
+th {
+  padding: 0;
+}
+
+/* line 232, icons/*.png */
+.icons-sprite, .icon-basket::before, .icon-call::after, .icon-skype::after, .star-rating li, .star-rating li.active, .product-offer > a::before, .product-added span::before, .product-added a::before, .advantages-block .promote-description-wrapper span, .event-view-more-btn::before, .event-party::after, .event-culture::after, .event-meeting::after, .reservation-form button::before, .team-choose-buttons a.left-btn::before, .team-choose-buttons a.right-btn::before, .follow-block a.twtr::before, .follow-block a.insta::before, .share-btn::before, .about-us-description::before, .social-fb::before, .social-twtr::before, .social-pinterest::before, .social-dribble::before {
+  background-image: url('../img/icons-se488b5cca9.png');
+  background-repeat: no-repeat;
+}
+
+/* line 43, ../sass/_main.scss */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 47, ../sass/_main.scss */
+.clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+}
+
+/* line 55, ../sass/_main.scss */
+.container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/* line 62, ../sass/_main.scss */
+.header-top {
+  color: #918686;
+  background-color: #4d4849;
+  font-size: 13px;
+  line-height: 20px;
+  position: relative;
+}
+/* line 68, ../sass/_main.scss */
+.header-top .container {
+  position: relative;
+}
+
+/* line 73, ../sass/_main.scss */
+.site-info {
+  float: left;
+  padding: 15px 0;
+}
+/* line 76, ../sass/_main.scss */
+.site-info a {
+  text-decoration: none;
+  color: #f6d98f;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+/* line 82, ../sass/_main.scss */
+.site-info span {
+  margin-right: 40px;
+}
+
+/* line 87, ../sass/_main.scss */
+.account-navigation {
+  float: right;
+  margin-right: 45px;
+}
+/* line 90, ../sass/_main.scss */
+.account-navigation a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  padding: 15px;
+  transition: background-color .3s, color 0.3s;
+}
+/* line 96, ../sass/_main.scss */
+.account-navigation a:hover {
+  background-color: #c55842;
+  color: #fff;
+}
+
+/* line 104, ../sass/_main.scss */
+.shoping-basket {
+  float: right;
+  background-color: #f6d98f;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* line 112, ../sass/_main.scss */
+.shoping-basket::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  border-left: 23px solid transparent;
+  border-right: 22px solid transparent;
+  border-bottom: 9px solid #fff;
+}
+
+/* line 123, ../sass/_main.scss */
+.shoping-basket a {
+  line-height: 58px;
+  text-align: center;
+  text-decoration: none;
+  width: 45px;
+  height: 66px;
+  display: inline-block;
+  position: relative;
+  transition: all 0.3s;
+}
+/* line 132, ../sass/_main.scss */
+.shoping-basket a:hover {
+  padding-top: 10px;
+}
+/* line 134, ../sass/_main.scss */
+.shoping-basket a:hover .basket-counter {
+  top: 22px;
+}
+/* line 138, ../sass/_main.scss */
+.shoping-basket a .basket-counter {
+  transition: all 0.3s;
+  width: 14px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #fff;
+  font-size: 9px;
+  background: #c55842;
+  display: inline-block;
+  right: 6px;
+  top: 12px;
+  position: absolute;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 158, ../sass/_main.scss */
+.icon-basket {
+  display: inline-block;
+  text-align: center;
+}
+/* line 161, ../sass/_main.scss */
+.icon-basket::before {
+  content: "";
+  display: block;
+  background-position: 0 -100px;
+  height: 17px;
+  width: 20px;
+}
+
+/* line 168, ../sass/_main.scss */
+.header-navigation > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+/* line 170, ../sass/_main.scss */
+.header-navigation > ul li {
+  margin-right: 20px;
+  display: inline-block;
+  padding: 15px 25px;
+  position: relative;
+  color: #bcc1c4;
+}
+/* line 176, ../sass/_main.scss */
+.header-navigation > ul li > a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+/* line 183, ../sass/_main.scss */
+.header-navigation > ul li > a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 3px;
+  bottom: -10px;
+  position: absolute;
+  left: 50%;
+  transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+  background: #c55842;
+}
+/* line 197, ../sass/_main.scss */
+.header-navigation > ul li:not(:first-child)::before {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  position: absolute;
+  left: -2px;
+  top: 50%;
+  background: #bcc1c4;
+  margin-top: -2px;
+}
+/* line 208, ../sass/_main.scss */
+.header-navigation > ul li:hover {
+  color: #c55842;
+}
+/* line 210, ../sass/_main.scss */
+.header-navigation > ul li:hover > a::after {
+  width: 36px;
+  margin-left: -18px;
+}
+
+/* line 218, ../sass/_main.scss */
+.navigation-left {
+  float: left;
+  margin-left: 70px;
+}
+
+/* line 223, ../sass/_main.scss */
+.navigation-right {
+  float: right;
+  margin-right: 20px;
+}
+
+/* line 228, ../sass/_main.scss */
+.logo {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -85px;
+  background: url(../img/logo.png);
+  width: 170px;
+  height: 221px;
+}
+
+/* line 239, ../sass/_main.scss */
+.header-bottom {
+  padding: 40px 0 30px 0;
+}
+
+/* line 257, ../sass/_main.scss */
+.slider {
+  height: 775px;
+  overflow: hidden;
+}
+
+/* line 262, ../sass/_main.scss */
+.slide {
+  background: url(../img/home-slider-big.jpg) no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 268, ../sass/_main.scss */
+.contact-info-block {
+  background-color: #f2f6f7;
+  padding-bottom: 20px;
+}
+
+/* line 273, ../sass/_main.scss */
+.contact-info-block .container {
+  transform: translateY(-40px);
+  box-sizing: border-box;
+  width: 1170px;
+  padding: 0;
+  height: 170px;
+  font-size: 0;
+  line-height: 0;
+  background-color: #fff;
+}
+
+/* line 284, ../sass/_main.scss */
+.contact-info-left-side,
+.contact-info-center,
+.contact-info-right-side {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 170px;
+  vertical-align: top;
+  position: relative;
+}
+
+/* line 294, ../sass/_main.scss */
+.contact-info-left-side {
+  padding: 14px;
+  background-color: #f6d98f;
+  color: #a28026;
+  width: 170px;
+}
+/* line 299, ../sass/_main.scss */
+.contact-info-left-side .contact-info-date {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 28px;
+}
+/* line 304, ../sass/_main.scss */
+.contact-info-left-side .contact-info-welcome {
+  font-style: italic;
+  font-size: 21px;
+  line-height: 29px;
+  font-family: "Droid Serif", sans-serif;
+}
+/* line 308, ../sass/_main.scss */
+.contact-info-left-side .contact-info-welcome .user-name {
+  font-weight: bold;
+  color: #c55842;
+}
+
+/* line 315, ../sass/_main.scss */
+.contact-info-center {
+  padding-top: 50px;
+  font-size: 13px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #918686;
+  padding-left: 100px;
+  width: 400px;
+}
+
+/* line 323, ../sass/_main.scss */
+.contacts {
+  font-weight: bold;
+  color: #c55842;
+  font-size: 32px;
+  line-height: 14px;
+  font-family: "Droid Serif", sans-serif;
+  margin-top: 25px;
+  position: relative;
+}
+/* line 329, ../sass/_main.scss */
+.contacts::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background-color: #c55842;
+  left: -65px;
+  top: 50%;
+  margin-top: -27px;
+}
+
+/* line 343, ../sass/_main.scss */
+.icon-call::after,
+.icon-skype::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -49px;
+  top: 50%;
+  margin-top: -13px;
+}
+
+/* line 353, ../sass/_main.scss */
+.icon-call::after {
+  background-position: 0 -238px;
+  height: 24px;
+  width: 24px;
+}
+
+/* line 357, ../sass/_main.scss */
+.icon-skype::after {
+  background-position: 0 -308px;
+  height: 26px;
+  width: 25px;
+}
+
+/* line 362, ../sass/_main.scss */
+.contact-info-right-side {
+  float: right;
+  padding-top: 50px;
+  color: #918686;
+  width: 185px;
+  font-size: 13px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+/* line 369, ../sass/_main.scss */
+.contact-info-right-side a {
+  margin-top: 10px;
+  border-radius: 3px;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 15px 18px;
+  font-size: 13px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #c55842;
+  transition: background 0.3s, color 0.3s;
+}
+/* line 381, ../sass/_main.scss */
+.contact-info-right-side a:hover {
+  background: #a24532;
+}
+
+/* line 387, ../sass/_main.scss */
+.contact-info-right-side::before,
+.contact-info-center-skype::before {
+  content: "";
+  width: 1px;
+  height: 100%;
+  background-color: #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* line 398, ../sass/_main.scss */
+.promote-body {
+  font-size: 0px;
+  line-height: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 402, ../sass/_main.scss */
+.promote-block {
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+
+/* line 407, ../sass/_main.scss */
+.discover-block {
+  background-color: #f2f6f7;
+  padding-top: 10px;
+}
+
+/* line 412, ../sass/_main.scss */
+.promote-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+/* line 415, ../sass/_main.scss */
+.promote-header h2 {
+  font-size: 60px;
+  line-height: 70px;
+  font-family: "Droid Serif", sans-serif;
+  color: #c55842;
+  font-style: italic;
+  text-align: center;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: -5px;
+}
+/* line 424, ../sass/_main.scss */
+.promote-header .promote-description-wrapper {
+  font-size: 16px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #918686;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+/* line 437, ../sass/_main.scss */
+.promote-description-line-left {
+  position: absolute;
+  background-color: #d5d1d1;
+  width: 65px;
+  height: 1px;
+  left: -65px;
+  top: 50%;
+}
+/* line 444, ../sass/_main.scss */
+.promote-description-line-left::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 1px solid #d5d1d1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: -8px;
+  top: -3.5px;
+}
+
+/* line 458, ../sass/_main.scss */
+.promote-description-line-right {
+  position: absolute;
+  background-color: #d5d1d1;
+  width: 65px;
+  height: 1px;
+  right: -65px;
+  top: 50%;
+  margin-top: -1px;
+}
+/* line 466, ../sass/_main.scss */
+.promote-description-line-right::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border: 1px solid #d5d1d1;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(135deg);
+  position: absolute;
+  right: -8px;
+  top: -3.5px;
+}
+
+/* line 480, ../sass/_main.scss */
+.promote-filter {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+/* line 483, ../sass/_main.scss */
+.promote-filter ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 488, ../sass/_main.scss */
+.promote-filter ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+/* line 491, ../sass/_main.scss */
+.promote-filter ul li a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  color: #918686;
+  background-color: #d5d1d1;
+  padding: 8px 22px;
+  border-radius: 15px;
+  font-size: 13px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+}
+/* line 499, ../sass/_main.scss */
+.promote-filter ul li a:hover, .promote-filter ul li a.active {
+  background-color: #918686;
+  color: #fff;
+}
+
+/* line 507, ../sass/_main.scss */
+.product-block {
+  font-size: 0px;
+  line-height: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 511, ../sass/_main.scss */
+.product {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 270px;
+  padding: 5px 6px;
+  background: #fff;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  transition: all 0.2s;
+}
+/* line 520, ../sass/_main.scss */
+.product a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+/* line 524, ../sass/_main.scss */
+.product img {
+  width: 258px;
+  height: 200px;
+}
+
+/* line 530, ../sass/_main.scss */
+.product:nth-child(4n) {
+  margin-right: 0;
+}
+
+/* line 534, ../sass/_main.scss */
+.product:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 0 20px #c55842;
+  background-color: #c55842;
+}
+/* line 538, ../sass/_main.scss */
+.product:hover .product-img {
+  outline: 6px solid #7b3426;
+}
+/* line 541, ../sass/_main.scss */
+.product:hover .product-name,
+.product:hover .product-description,
+.product:hover .product-cost,
+.product:hover .product-review {
+  color: #fff;
+}
+/* line 547, ../sass/_main.scss */
+.product:hover .product-offer a,
+.product:hover .product-added a,
+.product:hover .product-added span {
+  color: #fff;
+  border-color: #fff;
+}
+
+/* line 555, ../sass/_main.scss */
+.product-img {
+  background-color: #918686;
+  font-size: 0px;
+  line-height: 0px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+
+/* line 561, ../sass/_main.scss */
+.product .product-name {
+  padding-left: 9px;
+  padding-right: 7px;
+  color: #6a6060;
+  font-size: 18px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 14px;
+}
+
+/* line 570, ../sass/_main.scss */
+.product .product-description {
+  padding-left: 9px;
+  padding-right: 7px;
+  color: #918686;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* line 579, ../sass/_main.scss */
+.product-review {
+  padding-left: 9px;
+  padding-right: 7px;
+  color: #918686;
+  font-size: 13px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* line 588, ../sass/_main.scss */
+.star-rating {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 5px;
+  display: inline-block;
+}
+/* line 592, ../sass/_main.scss */
+.star-rating li {
+  display: inline-block;
+  margin-right: 2px;
+  background-position: 0 -388px;
+  height: 10px;
+  width: 10px;
+}
+/* line 59, ../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+.star-rating li:active, .star-rating li.star_rating-active {
+  background-position: 0 -398px;
+}
+/* line 596, ../sass/_main.scss */
+.star-rating li.active {
+  background-position: 0 -398px;
+  height: 10px;
+  width: 10px;
+}
+
+/* line 602, ../sass/_main.scss */
+.product-order {
+  border-top: 1px dotted #d5d1d1;
+  padding-top: 12px;
+  padding-left: 9px;
+  padding-right: 7px;
+  margin-bottom: 10px;
+}
+
+/* line 610, ../sass/_main.scss */
+.product-cost {
+  margin-top: 10px;
+  font-size: 18px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #c55842;
+  float: left;
+  display: inline-block;
+  letter-spacing: 0.1em;
+}
+
+/* line 621, ../sass/_main.scss */
+.product-offer {
+  float: right;
+  display: inline-block;
+}
+/* line 624, ../sass/_main.scss */
+.product-offer.hidden {
+  display: none;
+}
+/* line 627, ../sass/_main.scss */
+.product-offer > a {
+  font-size: 11px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: inherit;
+  color: #918686;
+  border: 1px solid #918686;
+  padding: 8px 10px 8px 30px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+/* line 636, ../sass/_main.scss */
+.product-offer > a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -6px;
+  background-position: 0 -117px;
+  height: 13px;
+  width: 14px;
+}
+
+/* line 648, ../sass/_main.scss */
+.product-added {
+  float: right;
+}
+/* line 650, ../sass/_main.scss */
+.product-added.hidden {
+  display: none;
+}
+/* line 653, ../sass/_main.scss */
+.product-added span {
+  vertical-align: top;
+  font-size: 11px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  border: 1px solid #918686;
+  padding: 8px 10px 8px 30px;
+  background-color: #918686;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+  margin-right: 5px;
+}
+/* line 664, ../sass/_main.scss */
+.product-added span::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -6px;
+  background-position: 0 -141px;
+  height: 13px;
+  width: 13px;
+}
+/* line 674, ../sass/_main.scss */
+.product-added a {
+  vertical-align: top;
+  font-size: 0px;
+  line-height: 0px;
+  font-family: "Montserrat", sans-serif;
+  width: 31px;
+  height: 31px;
+  border: 1px solid #c55842;
+  background-color: #c55842;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+/* line 684, ../sass/_main.scss */
+.product-added a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -6px;
+  margin-left: -4px;
+  background-position: 0 -130px;
+  height: 11px;
+  width: 10px;
+}
+
+/* line 697, ../sass/_main.scss */
+.choose-block {
+  padding-bottom: 50px;
+}
+
+/* line 701, ../sass/_main.scss */
+.promote-menu-wrapper {
+  display: inline-block;
+  width: 550px;
+  float: left;
+  margin-top: -20px;
+  margin-bottom: 30px;
+}
+/* line 707, ../sass/_main.scss */
+.promote-menu-wrapper h3 {
+  font-size: 26px;
+  line-height: 14px;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  color: #6a6060;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+/* line 714, ../sass/_main.scss */
+.promote-menu-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 719, ../sass/_main.scss */
+.promote-menu-wrapper:nth-child(2n) {
+  float: right;
+}
+
+/* line 723, ../sass/_main.scss */
+.product-menu {
+  display: block;
+  margin-bottom: 30px;
+}
+/* line 726, ../sass/_main.scss */
+.product-menu img {
+  display: inline-block;
+  border-radius: 50%;
+  border: 6px solid #e6eced;
+  float: left;
+  width: 115px;
+  height: 115px;
+}
+
+/* line 736, ../sass/_main.scss */
+.product-menu-info {
+  float: right;
+  position: relative;
+  display: inline-block;
+  width: 400px;
+}
+/* line 741, ../sass/_main.scss */
+.product-menu-info::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  border-bottom: 1px dotted #d5d1d1;
+  left: 0;
+  top: 24px;
+  z-index: -1;
+}
+
+/* line 753, ../sass/_main.scss */
+.product-menu-info.special-offer .product-menu-name {
+  color: #c55842;
+}
+/* line 756, ../sass/_main.scss */
+.product-menu-info.special-offer::before {
+  border-color: #c55842;
+}
+/* line 759, ../sass/_main.scss */
+.product-menu-info.special-offer .product-menu-offer {
+  background-color: #c55842;
+  position: relative;
+}
+/* line 762, ../sass/_main.scss */
+.product-menu-info.special-offer .product-menu-offer::before {
+  content: "Special Offer!";
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: #c55842;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  letter-spacing: -0.01em;
+  top: -18px;
+  left: 0;
+}
+
+/* line 778, ../sass/_main.scss */
+.product-menu-info.best-choice .product-menu-name {
+  color: #78965b;
+}
+/* line 781, ../sass/_main.scss */
+.product-menu-info.best-choice::before {
+  border-color: #78965b;
+}
+/* line 784, ../sass/_main.scss */
+.product-menu-info.best-choice .product-menu-offer {
+  background-color: #78965b;
+  position: relative;
+}
+/* line 787, ../sass/_main.scss */
+.product-menu-info.best-choice .product-menu-offer::before {
+  content: "Best choice!";
+  display: block;
+  text-align: center;
+  width: 100%;
+  color: #78965b;
+  font-size: 12px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  letter-spacing: -0.01em;
+  top: -18px;
+  left: 0;
+}
+
+/* line 802, ../sass/_main.scss */
+.product-menu-name {
+  font-size: 18px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding-right: 5px;
+  background-color: #fff;
+  display: inline-block;
+  color: #6a6060;
+  padding-top: 12px;
+  margin-bottom: 30px;
+}
+
+/* line 813, ../sass/_main.scss */
+.product-menu-offer {
+  background: #6a6060;
+  color: #fff;
+  padding: 10px 15px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  float: right;
+  margin-left: 10px;
+  box-shadow: -5px 0 0 0 #fff;
+  border-radius: 3px;
+}
+
+/* line 826, ../sass/_main.scss */
+.product-menu-description {
+  padding-left: 30px;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  color: #918686;
+  clear: both;
+}
+
+/* line 834, ../sass/_main.scss */
+.advantages-block {
+  background: url(../img/advantages.jpg) no-repeat;
+  background-size: cover;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+/* line 839, ../sass/_main.scss */
+.advantages-block p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Droid Serif", sans-serif;
+  display: inline-block;
+  padding: 0 180px;
+  font-style: italic;
+}
+
+/* line 849, ../sass/_main.scss */
+.advantages-wrapper {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/* line 854, ../sass/_main.scss */
+.advantages-list {
+  display: inline-block;
+}
+
+/* line 859, ../sass/_main.scss */
+.advantage {
+  display: inline-block;
+  margin-right: 140px;
+  text-align: center;
+}
+
+/* line 865, ../sass/_main.scss */
+.advantage:last-child {
+  margin-right: 0;
+}
+
+/* line 869, ../sass/_main.scss */
+.advantage-counter {
+  font-size: 90px;
+  line-height: 90px;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  color: #fff;
+}
+
+/* line 875, ../sass/_main.scss */
+.advantage-name {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f6d98f;
+}
+
+/* line 882, ../sass/_main.scss */
+.advantages-block .promote-description-wrapper {
+  text-align: center;
+  position: relative;
+  display: block;
+  margin: auto;
+  padding: 0 15px;
+  height: 42px;
+  width: 24px;
+  margin-bottom: 20px;
+}
+
+/* line 893, ../sass/_main.scss */
+.advantages-block .promote-description-wrapper span {
+  background-position: 0 -58px;
+  height: 42px;
+  width: 24px;
+  display: inline-block;
+}
+
+/* line 898, ../sass/_main.scss */
+.event-block {
+  font-size: 0px;
+  line-height: 0px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
+
+/* line 903, ../sass/_main.scss */
+.event {
+  vertical-align: top;
+  box-sizing: border-box;
+  border: 6px solid #f1eded;
+  background: #f1eded;
+  width: 370px;
+  height: 445px;
+  margin-right: 30px;
+  display: inline-block;
+  font-size: 0px;
+  line-height: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+/* line 913, ../sass/_main.scss */
+.event p {
+  color: #918686;
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Droid Serif", sans-serif;
+  margin-bottom: 20px;
+}
+
+/* line 921, ../sass/_main.scss */
+.event:nth-child(3n) {
+  margin-right: 0;
+}
+
+/* line 925, ../sass/_main.scss */
+.event-picture {
+  text-decoration: none;
+  color: inherit;
+  width: 358px;
+  height: 255px;
+  background: #425abe;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+/* line 932, ../sass/_main.scss */
+.event-picture img {
+  width: 358px;
+  height: 255px;
+}
+
+/* line 938, ../sass/_main.scss */
+.event-description-wrapper {
+  padding: 5px 14px;
+}
+
+/* line 942, ../sass/_main.scss */
+.event-name {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  font-size: 18px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #6a6060;
+  margin-bottom: 15px;
+}
+
+/* line 951, ../sass/_main.scss */
+.light-btn {
+  text-decoration: none;
+  color: inherit;
+  color: #918686;
+  font-size: 11px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  padding: 9px 15px 9px 35px;
+  border: 1px solid #918686;
+  border-radius: 3px;
+  position: relative;
+  display: inline-block;
+  transition: all 0.3s;
+}
+/* line 961, ../sass/_main.scss */
+.light-btn:hover {
+  color: #fff;
+  border-color: #c55842;
+  background-color: #c55842;
+}
+
+/* line 968, ../sass/_main.scss */
+.event-view-more-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  background-position: 0 -262px;
+  height: 16px;
+  width: 13px;
+  top: 50%;
+  left: 10px;
+  margin-top: -7px;
+}
+
+/* line 978, ../sass/_main.scss */
+.event-party,
+.event-culture,
+.event-meeting {
+  position: relative;
+}
+/* line 982, ../sass/_main.scss */
+.event-party::before,
+.event-culture::before,
+.event-meeting::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 25px solid #c55842;
+  top: 1;
+  left: 1;
+  border-color: #c55842 transparent transparent #c55842;
+}
+
+/* line 995, ../sass/_main.scss */
+.event-party::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background-position: 0 -184px;
+  height: 15px;
+  width: 14px;
+  top: 7px;
+  left: 7px;
+}
+
+/* line 1004, ../sass/_main.scss */
+.event-culture::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background-position: 0 -154px;
+  height: 14px;
+  width: 14px;
+  top: 7px;
+  left: 7px;
+}
+
+/* line 1013, ../sass/_main.scss */
+.event-meeting::after {
+  position: absolute;
+  display: block;
+  content: "";
+  background-position: 0 -168px;
+  height: 16px;
+  width: 16px;
+  top: 7px;
+  left: 7px;
+}
+
+/* line 1022, ../sass/_main.scss */
+.reservation-block {
+  background: #b2b2b2;
+}
+
+/* line 1027, ../sass/_main.scss */
+.reservation-form {
+  width: 970px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 20px;
+}
+/* line 1032, ../sass/_main.scss */
+.reservation-form fieldset {
+  border: 0;
+  padding: 0;
+}
+/* line 1036, ../sass/_main.scss */
+.reservation-form legend {
+  font-size: 26px;
+  line-height: 14px;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  color: #fff;
+  margin-bottom: 35px;
+}
+
+/* line 1044, ../sass/_main.scss */
+.r-booking {
+  float: left;
+  width: 470px;
+  box-sizing: border-box;
+}
+
+/* line 1050, ../sass/_main.scss */
+.r-contacts {
+  float: right;
+  width: 470px;
+  box-sizing: border-box;
+}
+
+/* line 1056, ../sass/_main.scss */
+.ri-wrapper {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+/* line 1061, ../sass/_main.scss */
+.ri-wrapper input,
+.ri-wrapper textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 16px;
+  line-height: 7px;
+  font-family: "Montserrat", sans-serif;
+  padding: 0 10px;
+  height: 35px;
+  color: #fff;
+  background-color: #b2b2b2;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #c9c9c9;
+}
+/* line 1073, ../sass/_main.scss */
+.ri-wrapper input:focus,
+.ri-wrapper textarea:focus {
+  border-color: #fff;
+}
+/* line 1076, ../sass/_main.scss */
+.ri-wrapper input:focus + label,
+.ri-wrapper textarea:focus + label {
+  color: #fff;
+}
+
+/* line 1082, ../sass/_main.scss */
+.ri-textarea {
+  clear: both;
+}
+/* line 1084, ../sass/_main.scss */
+.ri-textarea textarea {
+  padding-top: 10px;
+  height: 140px;
+  margin-bottom: 35px;
+}
+
+/* line 1091, ../sass/_main.scss */
+.ri-wrapper label {
+  font-size: 16px;
+  line-height: 7px;
+  font-family: "Montserrat", sans-serif;
+  color: #c9c9c9;
+  position: absolute;
+  top: 15px;
+  left: 10px;
+}
+
+/* line 1099, ../sass/_main.scss */
+.reservation-form button {
+  margin: 0 auto;
+  display: block;
+  box-sizing: border-box;
+  color: #fff;
+  height: 42px;
+  padding-left: 40px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+  background-color: #b2b2b2;
+  transition: all .3s;
+}
+/* line 1112, ../sass/_main.scss */
+.reservation-form button:hover {
+  background-color: #c55842;
+  border-color: #c55842;
+}
+/* line 1116, ../sass/_main.scss */
+.reservation-form button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  margin-top: -7px;
+  background-position: 0 -221px;
+  height: 17px;
+  width: 17px;
+}
+
+/* line 1128, ../sass/_main.scss */
+.look-at-block {
+  padding-top: 70px;
+  padding-bottom: 110px;
+}
+/* line 1131, ../sass/_main.scss */
+.look-at-block .promote-body {
+  padding-top: 30px;
+}
+
+/* line 1136, ../sass/_main.scss */
+.team-photo-small,
+.team-photo-big,
+.team-block {
+  display: inline-block;
+  margin-right: 30px;
+  vertical-align: bottom;
+}
+
+/* line 1144, ../sass/_main.scss */
+.team-block {
+  margin-right: 0;
+  position: relative;
+  width: 570px;
+}
+/* line 1148, ../sass/_main.scss */
+.team-block .team-choose-buttons {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* line 1156, ../sass/_main.scss */
+.team-choose-buttons a {
+  width: 30px;
+  height: 30px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid #918686;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+/* line 1164, ../sass/_main.scss */
+.team-choose-buttons a:first-child {
+  margin-right: 10px;
+}
+/* line 1167, ../sass/_main.scss */
+.team-choose-buttons a.left-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -5px;
+  background-position: 0 -211px;
+  height: 10px;
+  width: 7px;
+}
+/* line 1177, ../sass/_main.scss */
+.team-choose-buttons a.right-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -2px;
+  background-position: 0 -278px;
+  height: 10px;
+  width: 7px;
+}
+
+/* line 1189, ../sass/_main.scss */
+.team-photo-small a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  width: 170px;
+  height: 220px;
+  background-color: #f2f6f7;
+}
+/* line 1195, ../sass/_main.scss */
+.team-photo-small a img {
+  width: 170px;
+  height: 220px;
+}
+
+/* line 1201, ../sass/_main.scss */
+.team-photo-big a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  width: 370px;
+  height: 430px;
+  background-color: #f2f6f7;
+}
+/* line 1207, ../sass/_main.scss */
+.team-photo-big a img {
+  width: 370px;
+  height: 430px;
+}
+
+/* line 1213, ../sass/_main.scss */
+.team-member-name {
+  font-size: 28px;
+  line-height: 28px;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  color: #6a6060;
+  margin-bottom: 5px;
+}
+
+/* line 1221, ../sass/_main.scss */
+.team-member-position {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #918686;
+  text-transform: uppercase;
+}
+
+/* line 1228, ../sass/_main.scss */
+.team-block p {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  margin-bottom: 30px;
+  color: #918686;
+}
+
+/* line 1235, ../sass/_main.scss */
+.follow-block {
+  margin-bottom: 40px;
+}
+
+/* line 1239, ../sass/_main.scss */
+.follow-block a {
+  font-size: 11px;
+  line-height: 11px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  position: relative;
+  color: #918686;
+  margin-right: 20px;
+}
+/* line 1246, ../sass/_main.scss */
+.follow-block a.twtr::before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  margin-top: -3px;
+  background-position: 0 -408px;
+  height: 11px;
+  width: 12px;
+}
+/* line 1254, ../sass/_main.scss */
+.follow-block a.insta::before {
+  content: "";
+  display: inline-block;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-position: 0 -199px;
+  height: 12px;
+  width: 12px;
+}
+
+/* line 1263, ../sass/_main.scss */
+.team-members-photo-block .team-photo-small:nth-child(3n) {
+  margin-right: 0;
+}
+
+/* line 1267, ../sass/_main.scss */
+.gallery-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+/* line 1272, ../sass/_main.scss */
+.discover-block {
+  padding-top: 60px;
+  background-color: #f2f6f7;
+}
+
+/* line 1278, ../sass/_main.scss */
+.gallery-list li.active {
+  margin-bottom: 630px;
+}
+/* line 1280, ../sass/_main.scss */
+.gallery-list li.active:after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+/* line 1288, ../sass/_main.scss */
+.gallery-list li {
+  display: inline-block;
+  width: 270px;
+  height: 200px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  border: 5px solid #fff;
+  position: relative;
+}
+/* line 1297, ../sass/_main.scss */
+.gallery-list li:nth-child(4n) {
+  margin-right: 0;
+}
+/* line 1300, ../sass/_main.scss */
+.gallery-list li a {
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  background-color: #425abe;
+  position: relative;
+}
+/* line 1307, ../sass/_main.scss */
+.gallery-list li a img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1314, ../sass/_main.scss */
+.gallery-list li a::before {
+  background-color: black;
+  transition: opacity 0.5s;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+/* line 1328, ../sass/_main.scss */
+.gallery-list li a:hover::before {
+  opacity: 0.5;
+}
+
+/* line 1332, ../sass/_main.scss */
+.gallery-list li a:hover::after {
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+/* line 1346, ../sass/_main.scss */
+.gallery-product-desc {
+  display: none;
+  width: 100%;
+  background-color: #4d4949;
+  font-size: 0;
+  line-height: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #f2f6f7;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+/* line 1360, ../sass/_main.scss */
+.gallery-product-desc.active {
+  display: block;
+}
+
+/* line 1364, ../sass/_main.scss */
+.gallery-pointer {
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: -20px;
+  left: 50%;
+  background-color: inherit;
+  border-left: 20px solid #f2f6f7;
+  border-right: 20px solid #f2f6f7;
+  border-bottom: 20px solid #4d4949;
+}
+
+/* line 1375, ../sass/_main.scss */
+.gpd-image {
+  display: inline-block;
+  vertical-align: top;
+  width: 670px;
+  height: 440px;
+  margin-right: 30px;
+  box-sizing: border-box;
+  border: 5px solid #fff;
+  background: #425abe;
+}
+/* line 1384, ../sass/_main.scss */
+.gpd-image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 1390, ../sass/_main.scss */
+.gpd-block {
+  display: inline-block;
+  vertical-align: top;
+  width: 470px;
+  padding-top: 15px;
+}
+/* line 1395, ../sass/_main.scss */
+.gpd-block p {
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 35px;
+}
+
+/* line 1401, ../sass/_main.scss */
+.gpd-name {
+  font-size: 28px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+/* line 1407, ../sass/_main.scss */
+.gpd-desc,
+.gpd-time,
+.gpd-location {
+  font-size: 18px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 35px;
+}
+/* line 1412, ../sass/_main.scss */
+.gpd-desc span,
+.gpd-time span,
+.gpd-location span {
+  font-size: 13px;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 1417, ../sass/_main.scss */
+.share-btn {
+  text-decoration: none;
+  color: inherit;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  padding: 15px 30px 15px 60px;
+  background-color: #f2c85b;
+  position: relative;
+  display: inline-block;
+}
+/* line 1428, ../sass/_main.scss */
+.share-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  margin-top: -12px;
+  background-position: 0 -288px;
+  height: 20px;
+  width: 20px;
+}
+
+/* line 1439, ../sass/_main.scss */
+.newspaper-block {
+  font-size: 0px;
+  line-height: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 1443, ../sass/_main.scss */
+.news {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 30px;
+  margin-bottom: 50px;
+  width: 570px;
+  position: relative;
+  color: #918686;
+}
+/* line 1451, ../sass/_main.scss */
+.news::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 6px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #e6eced;
+}
+
+/* line 1463, ../sass/_main.scss */
+.news:nth-child(2n) {
+  margin-right: 0;
+}
+
+/* line 1469, ../sass/_main.scss */
+.news:nth-child(3n) .news-date,
+.news:nth-child(4n) .news-date {
+  right: 0;
+  padding-left: 20px;
+  padding-right: 0;
+}
+/* line 1474, ../sass/_main.scss */
+.news:nth-child(3n) .news-image,
+.news:nth-child(4n) .news-image {
+  float: left;
+}
+/* line 1477, ../sass/_main.scss */
+.news:nth-child(3n) .news-description-container,
+.news:nth-child(4n) .news-description-container {
+  float: right;
+}
+
+/* line 1482, ../sass/_main.scss */
+.news-date {
+  position: absolute;
+  top: -2px;
+  font-size: 12px;
+  line-height: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #c55842;
+  background-color: #fff;
+  padding-right: 20px;
+}
+
+/* line 1492, ../sass/_main.scss */
+.news-image {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 6px solid #e6eced;
+  background-color: #f45245;
+  width: 270px;
+  height: 270px;
+  float: right;
+}
+/* line 1501, ../sass/_main.scss */
+.news-image img {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 1507, ../sass/_main.scss */
+.news-description-container {
+  width: 270px;
+  float: left;
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 40px 30px 0 30px;
+  text-align: center;
+}
+/* line 1514, ../sass/_main.scss */
+.news-description-container p {
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* line 1521, ../sass/_main.scss */
+.news-name {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+  position: relative;
+}
+/* line 1526, ../sass/_main.scss */
+.news-name::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100px;
+  border: 1px dotted #d5d1d1;
+  bottom: 0;
+  left: 50%;
+  margin-left: -50px;
+}
+
+/* line 1538, ../sass/_main.scss */
+.news-view-all {
+  width: 325px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+}
+/* line 1544, ../sass/_main.scss */
+.news-view-all a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  line-height: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: inline-block;
+  color: #918686;
+  text-transform: uppercase;
+  padding: 0 10px;
+  background-color: #fff;
+}
+/* line 1554, ../sass/_main.scss */
+.news-view-all::before {
+  z-index: -1;
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  top: 50%;
+  margin-top: -2px;
+  background-color: #f1eeee;
+}
+
+/* line 1568, ../sass/_main.scss */
+.reviews-block {
+  background: url(../img/advantages.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+/* line 1575, ../sass/_main.scss */
+.reviews-block .container {
+  text-align: center;
+}
+
+/* line 1580, ../sass/_main.scss */
+.reviews-block input[type="radio"] {
+  display: none;
+}
+/* line 1583, ../sass/_main.scss */
+.reviews-block input[type="radio"]:checked + label img {
+  transform: scale(1.4);
+}
+/* line 1586, ../sass/_main.scss */
+.reviews-block label {
+  display: inline-block;
+  margin-right: 35px;
+  margin-bottom: 60px;
+}
+/* line 1590, ../sass/_main.scss */
+.reviews-block label img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+/* line 1596, ../sass/_main.scss */
+.reviews-block label:nth-child(7n) {
+  margin-right: 0;
+}
+
+/* line 1604, ../sass/_main.scss */
+input[id=person-1]:checked ~ .reviews-wrapper .reviews-container {
+  transform: translateX(0px);
+}
+
+/* line 1604, ../sass/_main.scss */
+input[id=person-2]:checked ~ .reviews-wrapper .reviews-container {
+  transform: translateX(-830px);
+}
+
+/* line 1604, ../sass/_main.scss */
+input[id=person-3]:checked ~ .reviews-wrapper .reviews-container {
+  transform: translateX(-1660px);
+}
+
+/* line 1604, ../sass/_main.scss */
+input[id=person-4]:checked ~ .reviews-wrapper .reviews-container {
+  transform: translateX(-2490px);
+}
+
+/* line 1604, ../sass/_main.scss */
+input[id=person-5]:checked ~ .reviews-wrapper .reviews-container {
+  transform: translateX(-3320px);
+}
+
+/* line 1604, ../sass/_main.scss */
+input[id=person-6]:checked ~ .reviews-wrapper .reviews-container {
+  transform: translateX(-4150px);
+}
+
+/* line 1604, ../sass/_main.scss */
+input[id=person-7]:checked ~ .reviews-wrapper .reviews-container {
+  transform: translateX(-4980px);
+}
+
+/* line 1638, ../sass/_main.scss */
+.reviews-wrapper {
+  display: block;
+  width: 830px;
+  margin: 0 auto;
+  overflow-x: hidden;
+  text-align: initial;
+  font-size: 0px;
+  line-height: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* line 1647, ../sass/_main.scss */
+.reviews-container {
+  width: 9999999px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  transition: all 0.3s;
+}
+
+/* line 1653, ../sass/_main.scss */
+.reviews-container li {
+  display: inline-block;
+  width: 830px;
+  vertical-align: top;
+  text-align: center;
+}
+/* line 1658, ../sass/_main.scss */
+.reviews-container li p {
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  color: #fff;
+  margin-bottom: 20px;
+}
+/* line 1664, ../sass/_main.scss */
+.reviews-container li .review-author {
+  font-size: 16px;
+  line-height: 22px;
+  font-family: "Droid Serif", sans-serif;
+  font-weight: bold;
+  color: #adccd9;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* line 1673, ../sass/_main.scss */
+.footer-top {
+  font-size: 0px;
+  line-height: 0px;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 20px;
+  background-color: #f1eeee;
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+
+/* line 1681, ../sass/_main.scss */
+.about,
+.latest-tweet-block,
+.instagram-block {
+  display: inline-block;
+  vertical-align: top;
+  width: 370px;
+  margin-right: 30px;
+}
+
+/* line 1690, ../sass/_main.scss */
+.instagram-block {
+  margin-right: 0;
+}
+
+/* line 1694, ../sass/_main.scss */
+.footer-top h4 {
+  font-size: 26px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #6a6060;
+  margin-bottom: 45px;
+}
+
+/* line 1702, ../sass/_main.scss */
+.about-us {
+  margin-bottom: 60px;
+}
+
+/* line 1706, ../sass/_main.scss */
+.about-us-description {
+  padding-left: 170px;
+  font-size: 13px;
+  line-height: 22px;
+  font-family: "Droid Serif", sans-serif;
+  color: #918686;
+  position: relative;
+}
+/* line 1711, ../sass/_main.scss */
+.about-us-description::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  background-position: 0 0;
+  height: 58px;
+  width: 134px;
+  margin-top: -10px;
+}
+
+/* line 1722, ../sass/_main.scss */
+.opening-times h4 {
+  margin-bottom: 35px;
+}
+
+/* line 1726, ../sass/_main.scss */
+.opening-times span {
+  font-size: 15px;
+  line-height: 22px;
+  font-family: "Droid Serif", sans-serif;
+  font-style: italic;
+  color: #918686;
+  background-color: #f1eeee;
+  z-index: 2;
+  position: relative;
+}
+
+/* line 1736, ../sass/_main.scss */
+.opening-times span:first-child {
+  float: left;
+  padding-right: 5px;
+}
+/* line 1740, ../sass/_main.scss */
+.opening-times span:last-child {
+  float: right;
+  padding-left: 5px;
+}
+
+/* line 1746, ../sass/_main.scss */
+.opening-time-wrapper .opening-time:nth-child(3n) {
+  font-weight: bold;
+}
+
+/* line 1751, ../sass/_main.scss */
+.opening-time {
+  position: relative;
+  margin-bottom: 10px;
+}
+/* line 1754, ../sass/_main.scss */
+.opening-time::before {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 1px dotted #d5d1d1;
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  z-index: 1;
+}
+
+/* line 1766, ../sass/_main.scss */
+.tweet-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+/* line 1771, ../sass/_main.scss */
+.tweet-list li {
+  display: block;
+  margin-bottom: 30px;
+}
+/* line 1774, ../sass/_main.scss */
+.tweet-list li img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+/* line 1784, ../sass/_main.scss */
+.tweet-author-container {
+  width: 240px;
+  display: inline-block;
+  vertical-align: top;
+}
+/* line 1788, ../sass/_main.scss */
+.tweet-author-container .tweet-author-name {
+  font-size: 16px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: #6a6060;
+  padding-top: 5px;
+}
+/* line 1793, ../sass/_main.scss */
+.tweet-author-container p {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "Droid Serif", sans-serif;
+  color: #6a6060;
+  font-style: italic;
+}
+/* line 1798, ../sass/_main.scss */
+.tweet-author-container a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "Droid Serif", sans-serif;
+  color: #c55842;
+}
+
+/* line 1806, ../sass/_main.scss */
+.instagram-block a {
+  text-decoration: none;
+  color: inherit;
+  width: 370px;
+  height: 370px;
+  display: inline-block;
+  background: #d5d1d1;
+}
+/* line 1812, ../sass/_main.scss */
+.instagram-block a img {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 1819, ../sass/_main.scss */
+.footer-bottom {
+  background: #c55842;
+}
+
+/* line 1823, ../sass/_main.scss */
+.copyright {
+  float: left;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Montserrat", sans-serif;
+  padding: 30px 0;
+}
+
+/* line 1831, ../sass/_main.scss */
+.social-block {
+  float: right;
+  display: inline-block;
+  padding: 20px 0;
+}
+/* line 1835, ../sass/_main.scss */
+.social-block a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  margin-right: 0;
+  width: 28px;
+  height: 28px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 2px;
+}
+
+/* line 1847, ../sass/_main.scss */
+.social-fb::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  margin-top: -7px;
+  margin-left: -2px;
+  background-position: 0 -348px;
+  height: 15px;
+  width: 6px;
+}
+
+/* line 1858, ../sass/_main.scss */
+.social-twtr::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  margin-top: -5px;
+  margin-left: -6px;
+  background-position: 0 -377px;
+  height: 11px;
+  width: 14px;
+}
+
+/* line 1869, ../sass/_main.scss */
+.social-pinterest::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  margin-top: -7px;
+  margin-left: -6px;
+  background-position: 0 -363px;
+  height: 14px;
+  width: 14px;
+}
+
+/* line 1880, ../sass/_main.scss */
+.social-dribble::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  margin-top: -7px;
+  margin-left: -6px;
+  background-position: 0 -334px;
+  height: 14px;
+  width: 14px;
+}
