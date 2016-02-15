@@ -124,7 +124,8 @@ a:hover {
 }
 
 .bl-icon {
-	font-family: 'icomoon';
+	text-align: center;
+	font-family: "Open Sans", Arial, Verdana, Tahoma;
 	speak: none;
 	font-style: normal;
 	font-weight: normal;
@@ -136,28 +137,40 @@ a:hover {
 }
 
 .bl-icon:before {
-	display: block;
+	content: "";
+	display: inline-block;
 	font-size: 2em;
 	margin-bottom: 10px;
+	background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
 }
 
 .bl-icon-about:before {
-	content: "\e000";
+	width: 51px;
+    height: 51px;
+    background-position: -10px -69px;
 }
 
 .bl-icon-works:before {
-	content: "\e001";
+	width: 46px;
+    height: 50px;
+    background-position: -10px -206px;
 }
 
 .bl-icon-blog:before {
-	content: "\e002";
+	width: 48px;
+    height: 46px;
+    background-position: -10px -140px;
 }
 
 .bl-icon-contact:before {
-	content: "\e003";
+	width: 48px;
+    height: 39px;
+    background-position: -10px -10px;
 }
 
 .bl-main > section .bl-icon-close {
+	font-family: 'icomoon';
 	position: absolute;
 	top: 20px;
 	right: 20px;
@@ -169,6 +182,8 @@ a:hover {
 
 .bl-icon-close:before {
 	content: "\e005";
+	display: block;
+	background-image: none;
 }
 
 .bl-content, 
@@ -254,6 +269,11 @@ ul.contacts li a {
 	border: none;
 	display: inline-block;
 	text-transform: none;
+}
+
+.social a {
+	display: inline-block;
+	
 }
 /* Panel Items */
 
