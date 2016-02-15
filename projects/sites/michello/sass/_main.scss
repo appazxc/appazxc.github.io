@@ -1,20 +1,22 @@
 $main-font-family: 'Montserrat', sans-serif;
-$font-color-first: #918686;
-
-$background-color: #4d4849;
-
-$font-color-second: #f6d98f;
-$font-color-third: #bcc1c4;
-$font-color-fff: #bcc1c4;
 $font-family-second: "Droid Serif", sans-serif;
-$color-third: #c55842;
-$color-four: #a28026;
+
+
+$color-light: #fff;
+
+$color-1: #918686;
+$color-2: #f6d98f;
+$color-3: #4d4849;
+$color-4: #c55842;
+$color-5: #bcc1c4;
+$color-6: #f2f6f7;
+$color-7: #a28026;
+$color-8: #d5d1d1;
+$color-9: #6a6060;
+$color-10: #78965b;
 
 $font-size-header-top: 13px;
 $line-height-header-top: 20px;
-
-
-$background-color-light: #f6d98f;
 
 $main-width: 1170px;
 
@@ -60,8 +62,8 @@ body {
 }
 
 .header-top {
-	color: $font-color-first;
-	background-color: $background-color;
+	color: $color-1;
+	background-color: $color-3;
 	font-size: $font-size-header-top;
 	line-height: $line-height-header-top;
 	position: relative;
@@ -75,7 +77,7 @@ body {
 	padding: 15px 0;
 	a {
 		text-decoration: none;
-		color: $font-color-second;
+		color: $color-2;
 		font-family: $main-font-family;
 		font-style: italic;
 	}
@@ -94,8 +96,8 @@ body {
 		padding: 15px;
 		transition: background-color .3s, color 0.3s;
 		&:hover {
-			background-color: $color-third;
-			color: #fff;
+			background-color: $color-4;
+			color: $color-light;
 		}
 	}
 }
@@ -103,7 +105,7 @@ body {
 
 .shoping-basket {
 	float: right;
-	background-color: $background-color-light;
+	background-color: $color-2;
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -117,7 +119,7 @@ body {
 	width: 0;
 	border-left: 23px solid transparent;
 	border-right: 22px solid transparent;
-	border-bottom: 9px solid #fff;
+	border-bottom: 9px solid $color-light;
 }
 
 .shoping-basket a {
@@ -141,9 +143,9 @@ body {
 		height: 14px;
 		line-height: 14px;
 		text-align: center;
-		color: #fff;
+		color: $color-light;
 		font-size: 9px;
-		background: $color-third;
+		background: $color-4;
 		display: inline-block;
 		right: 6px;
 		top: 12px;
@@ -172,7 +174,7 @@ body {
 		display: inline-block;
 		padding: 15px 25px;;
 		position: relative;
-		color: $font-color-third;
+		color: $color-5;
 		> a {
 			@include clear-link-style;
 			font-weight: bold;
@@ -190,7 +192,7 @@ body {
 				
 				left: 50%;
 				transition: width 0.3s ease-in-out, margin-left 0.3s ease-in-out;
-				background: $color-third;
+				background: $color-4;
 			}
 
 		}
@@ -202,11 +204,11 @@ body {
 			position: absolute;
 			left: -2px;
 			top: 50%;
-			background: $font-color-third;
+			background: $color-2;
 			margin-top: -2px;
 		}
 		&:hover {
-			color: $color-third;
+			color: $color-4;
 			> a::after {
 				width: 36px;
 				margin-left: -18px;
@@ -266,7 +268,7 @@ body {
 }
 
 .contact-info-block {
-	background-color: #f2f6f7;
+	background-color: $color-6;
 	padding-bottom: 20px;
 }
 
@@ -278,7 +280,7 @@ body {
 	height: 170px;
 	font-size: 0;
 	line-height: 0;
-	background-color: #fff;
+	background-color: $color-light;
 }
 
 .contact-info-left-side,
@@ -293,8 +295,8 @@ body {
 
 .contact-info-left-side {
 	padding: 14px;
-	background-color: $font-color-second;
-	color: $color-four;
+	background-color: $color-2;
+	color: $color-7;
 	width: 170px;
 	.contact-info-date {
 		font-weight: bold;
@@ -307,7 +309,7 @@ body {
 		@include font(21, 29, $font-family-second);
 		.user-name {
 		font-weight: bold;
-		color: $color-third;
+		color: $color-4;
 		}
 	}
 }
@@ -315,14 +317,14 @@ body {
 .contact-info-center {
 	padding-top: 50px;
 	@include font(13, 14);
-	color: $font-color-first;
+	color: $color-1;
 	padding-left: 100px;
 	width: 400px;
 }
 
 .contacts {
 	font-weight: bold;
-	color: $color-third;
+	color: $color-4;
 	@include font(32, 14, $font-family-second);
 	margin-top: 25px;
 	position: relative;
@@ -333,7 +335,7 @@ body {
 		width: 54px;
 		height: 54px;
 		border-radius: 50%;
-		background-color: $color-third;
+		background-color: $color-4;
 		left: -65px;
 		top: 50%;
 		margin-top: -27px;
@@ -362,7 +364,7 @@ body {
 .contact-info-right-side {
 	float: right;
 	padding-top: 50px;
-	color: $font-color-first;
+	color: $color-1;
 	width: 185px;
 	@include font(13, 14);
 	text-align: center;
@@ -372,14 +374,14 @@ body {
 		@include clear-link-style;
 		display: inline-block;
 		text-transform: uppercase;
-		color: #fff;
+		color: $color-light;
 		padding: 15px 18px;
 		@include font(13, 14);
 		font-weight: bold;
-		background-color: $color-third;
+		background-color: $color-4;
 		transition: background 0.3s, color 0.3s;
 		&:hover {
-			background: darken($color-third, 10%);
+			background: darken($color-4, 10%);
 		}
 	}
 }
@@ -405,7 +407,7 @@ body {
 }
 
 .discover-block {
-	background-color: #f2f6f7;
+	background-color: $color-6;
 	padding-top: 10px;
 }
 
@@ -414,7 +416,7 @@ body {
 	margin-bottom: 40px;
 	h2 {
 		@include font(60, 70, $font-family-second);
-		color: $color-third;
+		color: $color-4;
 		font-style: italic;
 		text-align: center;
 		font-weight: normal;
@@ -423,7 +425,7 @@ body {
 	}
 	.promote-description-wrapper {
 		@include font(16, 14);
-		color: $font-color-first;
+		color: $color-1;
 		font-weight: bold;
 		text-align: center;
 		text-transform: uppercase;
@@ -436,7 +438,7 @@ body {
 
 .promote-description-line-left {
 	position: absolute;
-	background-color: #d5d1d1;
+	background-color: $color-8;
 	width: 65px;
 	height: 1px;
 	left: -65px;
@@ -445,7 +447,7 @@ body {
 		content: "";
 		width: 6px;
 		height: 6px;
-		border: 1px solid #d5d1d1;
+		border: 1px solid $color-8;
 		border-top-color: transparent;
 		border-left-color: transparent;
 		transform: rotate(-45deg);
@@ -457,7 +459,7 @@ body {
 
 .promote-description-line-right {
 	position: absolute;
-	background-color: #d5d1d1;
+	background-color: $color-8;
 	width: 65px;
 	height: 1px;
 	right: -65px;
@@ -467,7 +469,7 @@ body {
 		content: "";
 		width: 6px;
 		height: 6px;
-		border: 1px solid #d5d1d1;
+		border: 1px solid $color-8;
 		border-top-color: transparent;
 		border-left-color: transparent;
 		transform: rotate(135deg);
@@ -491,15 +493,15 @@ body {
 	a {
 		@include clear-link-style;
 		display: inline-block;
-		color: $font-color-first;
-		background-color: #d5d1d1;
+		color: $color-1;
+		background-color: $color-8;
 		padding: 8px 22px;
 		border-radius: 15px;
 		@include font(13, 14);
 		&:hover,
 		&.active {
-			background-color: $font-color-first;
-			color: #fff;
+			background-color: $color-1;
+			color: $color-light;
 		}
 	}
 }
@@ -513,7 +515,7 @@ body {
 	box-sizing: border-box;
 	width: 270px;
 	padding: 5px 6px;
-	background: #fff;
+	background: $color-light;
 	margin-right: 30px;
 	margin-bottom: 30px;
 	transition: all 0.2s;
@@ -533,27 +535,27 @@ body {
 
 .product:hover {
 	transform: scale(1.2);
-	box-shadow: 0 0 0 20px $color-third;
-	background-color: $color-third;
+	box-shadow: 0 0 0 20px $color-4;
+	background-color: $color-4;
 	.product-img {
-		outline: 6px solid darken($color-third, 20%);
+		outline: 6px solid darken($color-4, 20%);
 	}
 	.product-name,
 	.product-description,
 	.product-cost,
 	.product-review {
-		color: #fff;
+		color: $color-light;
 	}
 	.product-offer a,
 	.product-added a,
 	.product-added span {
-		color: #fff;
-		border-color: #fff;
+		color: $color-light;
+		border-color: $color-light;
 	}
 }
 
 .product-img {
-	background-color: #918686;
+	background-color: $color-1;
 	@include font(0, 0);
 	margin-bottom: 20px;
 }
@@ -561,7 +563,7 @@ body {
 .product .product-name {
 	padding-left: 9px;
 	padding-right: 7px;
-	color: #6a6060;
+	color: $color-9;
 	@include font(18, 14);
 	font-weight: bold;
 	margin-bottom: 14px;
@@ -570,7 +572,7 @@ body {
 .product .product-description {
 	padding-left: 9px;
 	padding-right: 7px;
-	color: #918686;
+	color: $color-1;
 	@include font(12, 18, $font-family-second);
 	font-style: italic;
 	margin-bottom: 20px;
@@ -579,7 +581,7 @@ body {
 .product-review {
 	padding-left: 9px;
 	padding-right: 7px;
-	color: #918686;
+	color: $color-1;
 	@include font(13, 14);
 	font-weight: bold;
 	margin-bottom: 20px;
@@ -600,7 +602,7 @@ body {
 }
 
 .product-order {
-	border-top: 1px dotted #d5d1d1;
+	border-top: 1px dotted $color-8;
 	padding-top: 12px;
 	padding-left: 9px;
 	padding-right: 7px;
@@ -611,7 +613,7 @@ body {
 	margin-top: 10px;
 	@include font (18, 14);
 	font-weight: bold;
-	color: $color-third;
+	color: $color-4;
 	float: left;
 	display: inline-block;
 	letter-spacing: 0.1em;
@@ -627,8 +629,8 @@ body {
 	> a {
 		@include font(11, 14);
 		@include clear-link-style;
-		color: #918686;
-		border: 1px solid #918686;
+		color: $color-1;
+		border: 1px solid $color-1;
 		padding: 8px 10px 8px 30px;
 		border-radius: 3px;
 		display: inline-block;
@@ -653,10 +655,10 @@ body {
 	span {
 		vertical-align: top;
 		@include font(11, 14);
-		color: #fff;
-		border: 1px solid #918686;
+		color: $color-light;
+		border: 1px solid $color-1;
 		padding: 8px 10px 8px 30px;
-		background-color: #918686;
+		background-color: $color-1;
 		border-radius: 3px;
 		display: inline-block;
 		position: relative;
@@ -676,8 +678,8 @@ body {
 		@include font(0, 0);
 		width: 31px;
 		height: 31px;
-		border: 1px solid $color-third;
-		background-color: $color-third;
+		border: 1px solid $color-4;
+		background-color: $color-4;
 		border-radius: 3px;
 		display: inline-block;
 		position: relative;
@@ -707,7 +709,7 @@ body {
 	h3 {
 		@include font(26, 14, $font-family-second);
 		font-style: italic;
-		color: #6a6060;
+		color: $color-9;
 		font-weight: normal;
 		margin-bottom: 40px;
 	}
@@ -742,7 +744,7 @@ body {
 		position: absolute;
 		content: "";
 		width: 100%;
-		border-bottom: 1px dotted #d5d1d1;
+		border-bottom: 1px dotted $color-8;
 		left: 0;
 		top: 24px;
 		z-index: -1;
@@ -751,20 +753,20 @@ body {
 
 .product-menu-info.special-offer {
 	.product-menu-name {
-		color: $color-third;
+		color: $color-4;
 	}
 	&::before {
-		border-color: $color-third;
+		border-color: $color-4;
 	}
 	.product-menu-offer {
-		background-color: $color-third;
+		background-color: $color-4;
 		position: relative;
 		&::before {
 			content: "Special Offer!";
 			display: block;
 			text-align: center;
 			width: 100%;
-			color: $color-third;
+			color: $color-4;
 			@include font(12, 14);
 			position: absolute;
 			letter-spacing: -0.01em;
@@ -776,20 +778,20 @@ body {
 
 .product-menu-info.best-choice {
 	.product-menu-name {
-		color: #78965b;
+		color: $color-10;
 	}
 	&::before {
-		border-color: #78965b;
+		border-color: $color-10;
 	}
 	.product-menu-offer {
-		background-color: #78965b;
+		background-color: $color-10;
 		position: relative;
 		&::before {
 			content: "Best choice!";
 			display: block;
 			text-align: center;
 			width: 100%;
-			color: #78965b;
+			color: $color-10;
 			@include font(12, 14);
 			position: absolute;
 			letter-spacing: -0.01em;
@@ -803,23 +805,23 @@ body {
 	@include font(18, 14);
 	font-weight: bold;
 	padding-right: 5px;
-	background-color: #fff;
+	background-color: $color-light;
 	display: inline-block;
-	color: #6a6060;
+	color: $color-9;
 	padding-top: 12px;
 	margin-bottom: 30px;
 }
 
 .product-menu-offer {
-	background: #6a6060;
-	color: #fff;
+	background: $color-9;
+	color: $color-light;
 	padding: 10px 15px;
 	letter-spacing: 0.1em;
 	font-weight: bold;
 	@include font(16, 14);
 	float: right;
 	margin-left: 10px;
-	box-shadow: -5px 0 0 0 #fff;
+	box-shadow: -5px 0 0 0 $color-light;
 	border-radius: 3px;
 }
 
@@ -827,7 +829,7 @@ body {
 	padding-left: 30px;
 	@include font(12, 20, $font-family-second);
 	font-style: italic;
-	color: #918686;
+	color: $color-1;
 	clear: both;
 }
 
@@ -837,7 +839,7 @@ body {
 	padding-bottom: 40px;
 	margin-bottom: 20px;
 	p {
-		color: #fff;
+		color: $color-light;
 		text-align: center;
 		@include font(14, 24, $font-family-second);
 		display: inline-block;
@@ -869,14 +871,14 @@ body {
 .advantage-counter {
 	@include font(90, 90, $font-family-second);
 	font-style: italic;
-	color: #fff;
+	color: $color-light;
 }
 
 .advantage-name {
 	@include font(16, 26);
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #f6d98f;
+	color: $color-2;
 }
 
 .advantages-block .promote-description-wrapper {
@@ -911,7 +913,7 @@ body {
 	display: inline-block;
 	@include font(0, 0);
 	p {
-		color: #918686;
+		color: $color-1;
 		@include font(12, 20, $font-family-second);
 		margin-bottom: 20px;
 
@@ -944,24 +946,24 @@ body {
 	display: block;
 	@include font(18, 14);
 	font-weight: bold;
-	color: #6a6060;
+	color: $color-9;
 	margin-bottom: 15px;
 }
 
 .light-btn {
 	@include clear-link-style;
-	color: #918686;
+	color: $color-1;
 	@include font(11, 14);
 	padding: 9px 15px 9px 35px;
-	border: 1px solid #918686;
+	border: 1px solid $color-1;
 	border-radius: 3px;
 	position: relative;
 	display: inline-block;
 	transition: all 0.3s;
 	&:hover {
-		color: #fff;
-		border-color: $color-third;
-		background-color: $color-third;
+		color: $color-light;
+		border-color: $color-4;
+		background-color: $color-4;
 	}
 }
 
@@ -985,10 +987,10 @@ body {
 		position: absolute;
 		width: 0;
 		height: 0;
-		border: 25px solid $color-third;
+		border: 25px solid $color-4;
 		top: 1;
 		left: 1;
-		border-color: $color-third transparent transparent $color-third;
+		border-color: $color-4 transparent transparent $color-4;
 	}
 }
 
@@ -1036,7 +1038,7 @@ body {
 	legend {
 		@include font(26, 14, $font-family-second);
 		font-style: italic;
-		color: #fff;
+		color: $color-light;
 		margin-bottom: 35px;
 	}
 }
@@ -1065,16 +1067,16 @@ body {
 	@include font(16, 7);
 	padding: 0 10px;
 	height: 35px;
-	color: #fff;
+	color: $color-light;
 	background-color: #b2b2b2;
 	outline: none;
 	border: none;
 	border-bottom: 1px solid #c9c9c9;
 	&:focus {
-		border-color: #fff;
+		border-color: $color-light;
 	}
 	&:focus + label {
-		color: #fff;
+		color: $color-light;
 	}
 
 }
@@ -1100,18 +1102,18 @@ body {
 	margin: 0 auto;
 	display: block;
 	box-sizing: border-box;
-	color: #fff;
+	color: $color-light;
 	height: 42px;
 	padding-left: 40px;
-	border: 1px solid #fff;
+	border: 1px solid $color-light;
 	border-radius: 3px;
 	@include font(14, 14);
 	position: relative;
 	background-color: #b2b2b2;
 	transition: all .3s;
 	&:hover {
-		background-color: $color-third;
-		border-color: $color-third;
+		background-color: $color-4;
+		border-color: $color-4;
 	}
 	&::before {
 		content: "";
@@ -1157,7 +1159,7 @@ body {
 	width: 30px;
 	height: 30px;
 	@include clear-link-style;
-	border: 1px solid #918686;
+	border: 1px solid $color-1;
 	border-radius: 50%;
 	display: inline-block;
 	position: relative;
@@ -1191,7 +1193,7 @@ body {
 	@include clear-link-style;
 	width: 170px;
 	height: 220px;
-	background-color: #f2f6f7;
+	background-color: $color-6;
 	img {
 		width: 170px;
 		height: 220px;
@@ -1203,7 +1205,7 @@ body {
 	@include clear-link-style;
 	width: 370px;
 	height: 430px;
-	background-color: #f2f6f7;
+	background-color: $color-6;
 	img {
 		width: 370px;
 		height: 430px;
@@ -1214,14 +1216,14 @@ body {
 	@include font(28, 28, $font-family-second);
 	font-style: italic;
 	font-weight: bold;
-	color: #6a6060;
+	color: $color-9;
 	margin-bottom: 5px;
 }
 
 .team-member-position {
 	@include font(14, 24);
 	font-weight: bold;
-	color: #918686;
+	color: $color-1;
 	text-transform: uppercase;
 }
 
@@ -1229,7 +1231,7 @@ body {
 	@include font(12, 20, $font-family-second);
 	font-style: italic;
 	margin-bottom: 30px;
-	color: #918686;
+	color: $color-1;
 }
 
 .follow-block {
@@ -1241,7 +1243,7 @@ body {
 	@include clear-link-style;
 	display: inline-block;
 	position: relative;
-	color: #918686;
+	color: $color-1;
 	margin-right: 20px;
 	&.twtr::before {
 		content: "";
@@ -1271,7 +1273,7 @@ body {
 
 .discover-block {
 	padding-top: 60px;
-	background-color: #f2f6f7;
+	background-color: $color-6;
 }
 
 
@@ -1292,7 +1294,7 @@ body {
 	margin-right: 30px;
 	margin-bottom: 30px;
 	box-sizing: border-box;
-	border: 5px solid #fff;
+	border: 5px solid $color-light;
 	position: relative;
 	&:nth-child(4n) {
 		margin-right: 0;
@@ -1339,7 +1341,7 @@ body {
 	height: 40px;
 	margin-left: -20px;
 	margin-top: -20px;
-	border: 3px solid #fff;
+	border: 3px solid $color-light;
 	border-radius: 50%;
 }
 
@@ -1351,7 +1353,7 @@ body {
 	line-height: 0;
 	padding-top: 60px;
 	padding-bottom: 60px;
-	color: #f2f6f7;
+	color: $color-6;
 	position: absolute;
 	opacity: 0;
 	transition: all 0.5s;
@@ -1368,8 +1370,8 @@ body {
 	top: -20px;
 	left: 50%;
 	background-color: inherit;
-	border-left: 20px solid #f2f6f7;
-	border-right: 20px solid #f2f6f7;
+	border-left: 20px solid $color-6;
+	border-right: 20px solid $color-6;
 	border-bottom: 20px solid #4d4949;
 }
 .gpd-image {
@@ -1379,7 +1381,7 @@ body {
 	height: 440px;
 	margin-right: 30px;
 	box-sizing: border-box;
-	border: 5px solid #fff;
+	border: 5px solid $color-light;
 	background: #425abe;
 	img {
 		width: 100%;
@@ -1418,7 +1420,7 @@ body {
 	@include clear-link-style;
 	text-transform: uppercase;
 	@include font(18, 20);
-	color: #fff;
+	color: $color-light;
 	font-weight: bold;
 	letter-spacing: 0.2em;
 	padding: 15px 30px 15px 60px;
@@ -1447,7 +1449,7 @@ body {
 	margin-bottom: 50px;
 	width: 570px;
 	position: relative;
-	color: #918686;
+	color: $color-1;
 	&::before {
 		content: "";
 		display: block;
@@ -1484,8 +1486,8 @@ body {
 	top: -2px;
 	@include font(12, 12);
 	font-weight: bold;
-	color: $color-third;
-	background-color: #fff;
+	color: $color-4;
+	background-color: $color-light;
 	padding-right: 20px;
 }
 
@@ -1528,7 +1530,7 @@ body {
 		display: block;
 		position: absolute;
 		width: 100px;
-		border: 1px dotted #d5d1d1;
+		border: 1px dotted $color-8;
 		bottom: 0;
 		left: 50%;
 		margin-left: -50px;
@@ -1546,10 +1548,10 @@ body {
 		@include font(14, 28);
 		font-weight: bold;
 		display: inline-block;
-		color: #918686;
+		color: $color-1;
 		text-transform: uppercase;
 		padding: 0 10px;
-		background-color: #fff;
+		background-color: $color-light;
 	}
 	&::before {
 		z-index: -1;
@@ -1658,7 +1660,7 @@ body {
 	p {
 		@include font(14, 24, $font-family-second);
 		font-style: italic;
-		color: #fff;
+		color: $color-light;
 		margin-bottom: 20px;
 	}
 	.review-author {
@@ -1695,7 +1697,7 @@ body {
 	@include font(26, 14);
 	font-weight: bold;
 	text-transform: uppercase;
-	color: #6a6060;
+	color: $color-9;
 	margin-bottom: 45px;
 }
 
@@ -1706,7 +1708,7 @@ body {
 .about-us-description {
 	padding-left: 170px;
 	@include font(13, 22, $font-family-second);
-	color: #918686;
+	color: $color-1;
 	position: relative;
 	&::before {
 		content: "";
@@ -1726,7 +1728,7 @@ body {
 .opening-times span {
 	@include font(15, 22, $font-family-second);
 	font-style: italic;
-	color: #918686;
+	color: $color-1;
 	background-color: #f1eeee;
 	z-index: 2;
 	position: relative;
@@ -1755,7 +1757,7 @@ body {
 		content: "";
 		display: block;
 		width: 100%;
-		border-bottom: 1px dotted #d5d1d1;
+		border-bottom: 1px dotted $color-8;
 		position: absolute;
 		bottom: 5px;
 		left: 0;
@@ -1787,18 +1789,18 @@ body {
 	vertical-align: top;
 	.tweet-author-name {
 		@include font(16, 14);
-		color: #6a6060;
+		color: $color-9;
 		padding-top: 5px;
 	}
 	p {
 		@include font(13, 18, $font-family-second);
-		color: #6a6060;
+		color: $color-9;
 		font-style: italic;
 	}
 	a {
 		@include clear-link-style;
 		@include font(13, 18, $font-family-second);
-		color: $color-third;
+		color: $color-4;
 	}
 }
 
@@ -1808,7 +1810,7 @@ body {
 		width: 370px;
 		height: 370px;
 		display: inline-block;
-		background: #d5d1d1;
+		background: $color-8;
 		img {
 			height: 100%;
 			width: 100%;
@@ -1817,13 +1819,13 @@ body {
 }
 
 .footer-bottom {
-	background: #c55842;
+	background: $color-4;
 }
 
 .copyright {
 	float: left;
 	display: inline-block;
-	color: #fff;
+	color: $color-light;
 	@include font(14, 14);
 	padding: 30px 0;
 }
@@ -1838,7 +1840,7 @@ body {
 		margin-right: 0;
 		width: 28px;
 		height: 28px;
-		background-color: #fff;
+		background-color: $color-light;
 		position: relative;
 		border-radius: 2px;
 	}
