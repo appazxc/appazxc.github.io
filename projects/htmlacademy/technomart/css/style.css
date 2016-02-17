@@ -54,8 +54,8 @@ body .main.inner-page {
 	background-image: url(../img/sprite.png);
 	background-repeat: no-repeat;
 	width: 60px;
-    height: 59px;
-    background-position: -72px -156px;
+	height: 59px;
+	background-position: -72px -156px;
 	right: 0;
 	top: 0;
 }
@@ -384,7 +384,6 @@ body .main.inner-page {
 	height: 45px;
 	float: right;
 	margin-right: 10px;
-
 }
 
 .login-wrapper a,
@@ -456,7 +455,6 @@ body .main.inner-page {
 	text-decoration: none;
 	display: inline-block;
 	border-bottom: 1px solid #32425c;
-
 }
 
 .user-action-block a:hover {
@@ -532,6 +530,7 @@ body .main.inner-page {
 	font-size: 0;
 	line-height: 0;
 }
+
 .mini-promo-block {
 	width: 300px;
 	height: 123px;
@@ -604,16 +603,16 @@ body .main.inner-page {
 	display: block;
 	position: absolute;
 	background-image: url(../img/promote.png);
-    background-repeat: no-repeat;
-    top: 50%;
+	background-repeat: no-repeat;
+	top: 50%;
 }
 
 .mini-promo-block-materials::after {
 	right: 40px;
-    width: 44px;
-    height: 65px;
-    background-position: -5px -87px;
-    margin-top: -32px;
+	width: 44px;
+	height: 65px;
+	background-position: -5px -87px;
+	margin-top: -32px;
 }
 
 .mini-promo-block-instruments {
@@ -623,9 +622,9 @@ body .main.inner-page {
 .mini-promo-block-instruments::after {
 	right: 25px;
 	width: 75px;
-    height: 61px;
-    background-position: -162px -5px;
-    margin-top: -31px;
+	height: 61px;
+	background-position: -162px -5px;
+	margin-top: -31px;
 }
 
 .mini-promo-block-technics {
@@ -635,9 +634,9 @@ body .main.inner-page {
 .mini-promo-block-technics::after {
 	right: 30px;
 	width: 78px;
-    height: 62px;
-    background-position: -59px -87px;
-    margin-top: -31px;
+	height: 62px;
+	background-position: -59px -87px;
+	margin-top: -31px;
 }
 
 .mini-promo-block-discount {
@@ -647,9 +646,9 @@ body .main.inner-page {
 .mini-promo-block-discount::after {
 	right: 45px;
 	width: 59px;
-    height: 72px;
-    background-position: -93px -5px;
-    margin-top: -36px;
+	height: 72px;
+	background-position: -93px -5px;
+	margin-top: -36px;
 }
 
 .mini-promo-block-delivery {
@@ -659,9 +658,9 @@ body .main.inner-page {
 .mini-promo-block-delivery::after {
 	right: 30px;
 	width: 78px;
-    height: 63px;
-    background-position: -5px -5px;
-    margin-top: -32px;
+	height: 63px;
+	background-position: -5px -5px;
+	margin-top: -32px;
 }
 
 .slider {
@@ -678,14 +677,14 @@ body .main.inner-page {
 	border: none;
 	outline: none;
 	background-image: url(../img/sprite.png);
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	width: 22px;
-    height: 40px;
-    background-position: -55px -10px;
-    top: 50%;
-    margin-top: -20px;
-    left: 20px;
-    z-index: 5;
+	height: 40px;
+	background-position: -55px -10px;
+	top: 50%;
+	margin-top: -20px;
+	left: 20px;
+	z-index: 5;
 }
 
 .slider-to-right {
@@ -695,15 +694,14 @@ body .main.inner-page {
 	border: none;
 	outline: none;
 	background-image: url(../img/sprite.png);
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
 	width: 22px;
-    height: 40px;
-    background-position: -97px -10px;
-    top: 50%;
-    margin-top: -20px;
-    right: 20px;
-    z-index: 5;
-
+	height: 40px;
+	background-position: -97px -10px;
+	top: 50%;
+	margin-top: -20px;
+	right: 20px;
+	z-index: 5;
 }
 
 .slider-to-left:hover,
@@ -840,6 +838,7 @@ body .main.inner-page {
 .product:hover {
 	box-shadow: 0 0 10px 0 rgba(41, 52, 73, 0.5)
 }
+
 .product:hover .product-image-wrapper {
 	display: none;
 }
@@ -903,14 +902,14 @@ body .main.inner-page {
 	display: block;
 	position: absolute;
 	background-image: url(../img/sprite.png);
-    background-repeat: no-repeat;
-    width: 17px;
-    height: 16px;
-    background-position: -220px -10px;
-    opacity: 0.4;
-    top: 50%;
-    margin-top: -8px;
-    left: 12px;
+	background-repeat: no-repeat;
+	width: 17px;
+	height: 16px;
+	background-position: -220px -10px;
+	opacity: 0.4;
+	top: 50%;
+	margin-top: -8px;
+	left: 12px;
 }
 
 .product-offer .buy:hover {
@@ -1024,6 +1023,7 @@ body .main.inner-page {
 .promote-manufacturer a:active {
 	opacity: 0.3;
 }
+
 .promote-manufacturer a span {
 	vertical-align: middle;
 	display: inline-block;
@@ -1091,6 +1091,7 @@ body .main.inner-page {
 	left: 230px;
 	z-index: 2;
 }
+
 .service-main-content input {
 	display: none;
 }
@@ -1137,10 +1138,12 @@ body .main.inner-page {
 	line-height: 36px;
 	margin-bottom: 25px;
 }
+
 .service-credit a.btn {
 	padding: 10px 40px;
 	margin-top: 30px;
 }
+
 input[id="service-delivery"]:checked ~ .service-description-wrapper .service-delivery,
 input[id="service-varancy"]:checked ~ .service-description-wrapper .service-varancy,
 input[id="service-credit"]:checked ~ .service-description-wrapper .service-credit {
@@ -1393,6 +1396,7 @@ footer {
 .footer-bottom-part {
 	vertical-align: middle;
 }
+
 .copyright {
 	float: left;
 	width: 240px;
@@ -1408,15 +1412,13 @@ footer {
 	width: 42px;
 	height: 42px;
 	margin-right: 5px;
-
 }
-
 
 .icon-social {
 	width: 42px;
-    height: 42px;
-    background-image: url(../img/sprite.png);
-    background-repeat: no-repeat;
+	height: 42px;
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
 }
 
 .icon-vk {
@@ -1482,8 +1484,8 @@ footer {
 	width: 15px;
 	height: 12px;
 	background-image: url(../img/home.png);
-    background-repeat: no-repeat;
-    display: block;
+	background-repeat: no-repeat;
+	display: block;
 }
 
 .breadcrumbs-list li:not(:first-child)::before {
@@ -1491,11 +1493,11 @@ footer {
 	width: 8px;
 	height: 12px;
 	background-image: url(../img/bread-arrow.png);
-    background-repeat: no-repeat;
-    position: absolute;
-    top: 50%;
-    margin-top: -6px;
-    left: -25px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%;
+	margin-top: -6px;
+	left: -25px;
 }
 
 .inner-page-header h1 {
@@ -1569,13 +1571,13 @@ footer {
 	display: inline-block;
 	float: right;
 	background-image: url(../img/sprite.png);
-    background-repeat: no-repeat;
-    width: 25px;
-    height: 14px;
-    background-position: -139px -10px;
-    margin-top: 2px;
-    margin-right: 15px;
-    transition: all 0.3s;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 14px;
+	background-position: -139px -10px;
+	margin-top: 2px;
+	margin-right: 15px;
+	transition: all 0.3s;
 }
 
 .filter-open-button:checked + label {
@@ -1650,7 +1652,6 @@ footer {
 	width: 95px;
 	border-radius: 3px;
 	padding: 7px 0;
-
 }
 
 .filter-price input:last-child {
@@ -1696,33 +1697,33 @@ footer {
 	content: "";
 	display: block;
 	background-image: url(../img/sprite.png);
-    background-repeat: no-repeat;
-    width: 23px;
-    height: 23px;
-    background-position: -139px -46px;
-    top: 50%;
-    margin-top: -11px;
-    left: -35px;
-    position: absolute;
+	background-repeat: no-repeat;
+	width: 23px;
+	height: 23px;
+	background-position: -139px -46px;
+	top: 50%;
+	margin-top: -11px;
+	left: -35px;
+	position: absolute;
 }
 
 .filter-content input[type="checkbox"]:checked + label::before {
 	width: 27px;
-    background-position: -182px -46px;
+	background-position: -182px -46px;
 }
 
 .filter-content input[type="radio"] + label::before {
 	content: "";
 	display: block;
 	background-image: url(../img/sprite.png);
-    background-repeat: no-repeat;
-    width: 25px;
-    height: 25px;
-    background-position: -152px -151px;
-    top: 50%;
-    margin-top: -12px;
-    left: -35px;
-    position: absolute;
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 25px;
+	background-position: -152px -151px;
+	top: 50%;
+	margin-top: -12px;
+	left: -35px;
+	position: absolute;
 }
 
 .filter-content input[type="radio"]:checked + label::before {
@@ -1773,9 +1774,9 @@ footer {
 .direction-bottom {
 	display: inline-block;
 	background-image: url(../img/sprite.png);
-    background-repeat: no-repeat;
-    width: 11px;
-    height: 10px;
+	background-repeat: no-repeat;
+	width: 11px;
+	height: 10px;
 }
 
 .direction-bottom {
@@ -1878,5 +1879,92 @@ a.pagination-next {
 	font-size: 13px;
 	line-height: 24px;
 	text-transform: none;
-
 }
+
+
+/*=============================================
+=            Layout description START            =
+=============================================*/
+
+
+.layout-description {
+	position: fixed;
+	top: 200px;
+	right: 100%;
+	color: #000;
+	background: #fff;
+	padding: 10px 15px;
+	font-family: "Georgia", "Arial", sans-serif;
+	text-transform: none;
+	border: 1px solid rgba(40, 116, 166, 1);
+	border-left: 5px solid #FFC300;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.layout-toggle {
+	padding: 10px;
+	line-height: 1em;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	top: -1px;
+	left: 100%;
+	background-color: #fff;
+	color: #000;
+	box-shadow: 0 0 10px 0 #FFC300;
+	border: 1px solid rgba(40, 116, 166, 1);
+	border-left: none;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.layout-toggle:hover {
+	border: 1px solid rgba(40, 116, 166, 1);
+	border-left: none;
+}
+
+.layout-toggle::before {
+	content: "Страницы";
+}
+
+.layout-toggle.active {
+	box-shadow: none;
+}
+
+.layout-toggle.active::before {
+	content: "×";
+}
+
+.layout-head {
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 1.3em;
+}
+
+.layout-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.layout-list-item {
+	display: block;
+}
+
+.layout-page,
+.layout-page a {
+	display: inline-block;
+	color: inherit;
+	text-decoration: none;
+}
+
+.layout-page a:hover {
+	opacity: 0.5;
+}
+
+/*=============================================
+=            Layout description END            =
+=============================================*/

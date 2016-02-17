@@ -249,6 +249,36 @@
 		</div>
 	</footer>
 	
+	<div class="layout-description">
+		<p class="layout-head">Barbershop</p>
+		<ul class="layout-list">
+			<li class="layout-list-item">
+				<div class="layout-page"><a href="Barbershop-index.html">Главная</a></div>
+			</li>
+			<li class="layout-list-item">
+				<div class="layout-page"><a href="Barbershop-item.html">Товар</a></div>
+			</li>
+			<li class="layout-list-item">
+				<div class="layout-page"><a href="Barbershop-price.html">Внутренняя</a></div>
+			</li>
+			<li class="layout-list-item">
+				<div class="layout-page"><a href="Barbershop-shop.html">Каталог</a></div>
+			</li>
+		</ul>
+		<a href="" class="layout-toggle"></a>
+	</div>
+	<script>
+		var layoutToggle = document.querySelector(".layout-toggle");
+		var layout = document.querySelector(".layout-description");
+		layoutToggle.onclick = function(e) {
+			e.target.classList.toggle("active");
+			layout.style.transform = "translateX(" + layout.offsetWidth + "px)";
+			if (!e.target.classList.contains("active")) {
+				layout.style.transform = "";
+			}
+			return false;
+		}
+	</script>
 	<script src="js/common.js"></script>
 </body>
 </html>

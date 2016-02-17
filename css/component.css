@@ -245,6 +245,7 @@ div.bl-panel-items > div > div {
 }
 
 .bl-content > ul li a {
+	position: relative;
 	display: block;
 	padding: 0;
 	border: 8px solid rgba(0,0,0,0.1);
@@ -271,10 +272,71 @@ ul.contacts li a {
 	text-transform: none;
 }
 
+
+.work-item-hover {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	opacity: 0;
+	color: #000;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 15px;
+	-webkit-transition: opacity 0.3s ease-in-out;
+	-o-transition: opacity 0.3s ease-in-out;
+	transition: opacity 0.3s ease-in-out;
+	overflow: hidden;
+}
+
+
+#bl-work-items li:hover .work-item-hover {
+	opacity: 0.97;
+}
+
+.work-item-hover h3 {
+	font-size: 1.8em;
+	text-transform: none;
+	position: relative;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+}
+
+.work-item-hover h3::before {
+	content: '';
+	position: absolute;
+	top: 100%;
+	width: 30px;
+	height: 5px;
+	background-color: #feed71;
+}
+
+.work-item-hover p {
+	font-size: 0.9em;
+	padding-bottom: 0;
+}
+
+.work-item-hover a {
+	display: inline-block;
+}
+
+.work-item-hover ul {
+	padding: 0;
+}
+.work-item-hover ul li{
+	display: block;
+	width: 100%;
+	font-size: 0.9em;
+}
+
 .social a {
 	display: inline-block;
 	
 }
+
 /* Panel Items */
 
 div.bl-panel-items,
@@ -461,6 +523,30 @@ section.bl-expand .bl-box {
 	transition: opacity 0.1s linear 0s;
 }
 
+.icon {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin-right: 0px;
+	background-image: url(../images/icons.png);
+	background-repeat: no-repeat;
+}
+
+.github {
+	background-position: -123px 0px;
+}
+
+.github:hover {
+	background-position: -123px -59px;
+}
+
+.fcc {
+	background-position: -159px 1px;
+}
+
+.fcc:hover {
+	background-position: -159px -58px;
+}
 section.bl-expand .bl-content,
 section.bl-expand .bl-icon-close {
 	pointer-events: auto;
@@ -486,5 +572,20 @@ section.bl-expand .bl-icon-close {
 
 	ul.skills li {
 		width: 80%;
+	}
+	#bl-work-items .work-item-hover {
+		padding-top: 0;
+		font-size: 75%;
+	}
+
+	#bl-work-items .work-item-hover li {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#bl-work-items .work-item-hover {
+		padding-top: 0;
+		font-size: 75%;
 	}
 }
