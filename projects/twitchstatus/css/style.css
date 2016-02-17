@@ -133,6 +133,17 @@ ul {
 	vertical-align: middle;
 }
 
+.channel-wrapper:hover {
+	cursor: pointer;
+}
+
+.channel-wrapper.channel-wrapper-stream:hover {
+	cursor: default;
+}
+
+.channel-wrapper.channel-wrapper-stream .channel-name:hover {
+	color: #273746;
+}
 
 .channel-wrapper::after {
 	content: "";
@@ -159,9 +170,13 @@ ul {
 
 .channel-name {
 	font-weight: bold;
-	display: block;
+	display: inline-block;
 	text-decoration: none;
 	color: inherit;
+}
+
+.channel-name:hover {
+
 }
 
 .channel-descr {

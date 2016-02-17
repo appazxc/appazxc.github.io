@@ -227,7 +227,7 @@ function getStreamType(type, game) {
 					var stream = streams[i];
 
 					var li = document.createElement("li");
-					li.classList.add("channel-wrapper")
+					li.classList.add("channel-wrapper", "channel-wrapper-stream")
 
 					var logo = document.createElement("img");
 					logo.classList.add("icon");
