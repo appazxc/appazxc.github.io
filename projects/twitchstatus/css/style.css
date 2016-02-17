@@ -1,6 +1,6 @@
-* {
-	/*border: 1px solid black;*/
-}
+/**:hover {
+	outline: 1px solid red;
+}*/
 
 html,
 body {
@@ -14,6 +14,7 @@ body {
 .twitch-wrapper {
 	width: 400px;
 	padding-bottom: 15px;
+	padding-top: 10px;
 	margin: auto;
 	margin-top: 90px;
 	margin-bottom: 90px;
@@ -35,7 +36,10 @@ body {
 .button-wrapper {
 	font-size: 0;
 	padding: 5px;
-	margin-bottom: 10px;
+}
+
+.search-wrapper {
+	margin-top: 10px;
 }
 
 button {
@@ -46,7 +50,6 @@ button {
 	height: 40px;
 	display: inline-block;
 	margin-left: 1px;
-	margin-top: 5px;
 	margin-bottom: 5px;
 	border-radius: 3px;
 	position: relative;
@@ -94,22 +97,22 @@ ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	padding-right: 10px;
 }
 
-.channel {
-	display: inline-block;
+.icon,
+.channel-nd-wrapper,
+.status {
 	vertical-align: middle;
 }
 
 .container-channels {
-		position: relative;
-
+	position: relative;
 }
+
 .channels-wrapper {
 	overflow: hidden;
 	max-height: 500px;
-
-
 }
 
 .scroll {
@@ -127,43 +130,55 @@ ul {
 .channel-wrapper {
 	margin: 7px 0;
 	position: relative;
+	vertical-align: middle;
+}
 
+
+.channel-wrapper::after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
 }
 
 .icon {
 	width: 50px;
 	height:50px;
 	margin-left: 15px;
+	margin-right: 15px;
 	border-radius: 50%;
 	background-size: 100%;
 	background-repeat: no-repeat;
+	display: inline-block;
+}
+
+.channel-nd-wrapper {
+	display: inline-block;
+	width: 260px;
 }
 
 .channel-name {
-	margin-left: 10px;
 	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	color: inherit;
 }
 
-.channel-name a {
-	color: inherit;
-	text-decoration: none;
-}
 .channel-descr {
-	position: absolute;
-	bottom: 5px;
-	left: 75px;
 	font-size: 0.6em;
 }
 
 .status {
 	background: url(../img/emotions.png) no-repeat;
-	background-size: ;
 	width: 30px;
-	height:30px;
+	height: 30px;
 	background-size: 4em;
+	display: inline-block;
+	float: right;
 	position: absolute;
-	top: 12px;
-	right: 20px;
+	top: 50%;
+	right: 5px;
+	margin-top: -15px;
 }
 
 .status-offline {
