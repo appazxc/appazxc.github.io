@@ -13,10 +13,12 @@ function bonfire() {
 
 	setTimeout(function(){
 		popup.classList.remove("active");
-	}, 3000)
+	}, 97000)
 
 	popupCloseBtn.onclick = function() {
+		console.log("aaaa")
 		popup.classList.remove("active");
+		return false;
 	}
 
 	menuBurger.onclick = function() {

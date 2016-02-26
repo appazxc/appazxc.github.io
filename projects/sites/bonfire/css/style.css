@@ -320,17 +320,18 @@ body {
   left: 0;
   width: 100%;
   transition: top 0.5s;
+  z-index: 9999;
 }
-/* line 71, ../scss/_main.scss */
+/* line 72, ../scss/_main.scss */
 .popup-stripe .container {
   text-align: center;
 }
-/* line 74, ../scss/_main.scss */
+/* line 75, ../scss/_main.scss */
 .popup-stripe.active {
   top: 0;
 }
 
-/* line 79, ../scss/_main.scss */
+/* line 80, ../scss/_main.scss */
 .popup-stripe__close {
   background-position: 0 -7px;
   height: 9px;
@@ -340,20 +341,20 @@ body {
   cursor: pointer;
 }
 
-/* line 87, ../scss/_main.scss */
+/* line 88, ../scss/_main.scss */
 .header-top .container {
   position: relative;
   height: 128px;
 }
 
-/* line 93, ../scss/_main.scss */
+/* line 94, ../scss/_main.scss */
 .currency {
   display: inline-block;
   position: absolute;
   left: 15px;
   bottom: 37px;
 }
-/* line 98, ../scss/_main.scss */
+/* line 99, ../scss/_main.scss */
 .currency::after {
   content: "";
   position: absolute;
@@ -365,13 +366,13 @@ body {
   width: 8px;
 }
 
-/* line 108, ../scss/_main.scss */
+/* line 109, ../scss/_main.scss */
 .currency-image {
   display: inline-block;
   margin-right: 6px;
 }
 
-/* line 113, ../scss/_main.scss */
+/* line 114, ../scss/_main.scss */
 .currency-unit {
   font-size: 12px;
   text-transform: uppercase;
@@ -381,14 +382,14 @@ body {
   font-weight: bold;
 }
 
-/* line 122, ../scss/_main.scss */
+/* line 123, ../scss/_main.scss */
 .currency-usd {
   background-position: 0 -142px;
   height: 11px;
   width: 16px;
 }
 
-/* line 126, ../scss/_main.scss */
+/* line 127, ../scss/_main.scss */
 .currency-list {
   padding: 40px;
   display: none;
@@ -401,13 +402,13 @@ body {
   margin: 0;
   z-index: 10;
 }
-/* line 135, ../scss/_main.scss */
+/* line 136, ../scss/_main.scss */
 .currency-list li {
   display: block;
   white-space: nowrap;
 }
 
-/* line 141, ../scss/_main.scss */
+/* line 142, ../scss/_main.scss */
 .logo {
   display: inline-block;
   position: absolute;
@@ -419,7 +420,7 @@ body {
   width: 133px;
 }
 
-/* line 150, ../scss/_main.scss */
+/* line 151, ../scss/_main.scss */
 .cart {
   position: absolute;
   right: 15px;
@@ -433,19 +434,19 @@ body {
   line-height: 40px;
 }
 
-/* line 163, ../scss/_main.scss */
+/* line 164, ../scss/_main.scss */
 .header-bottom {
   border-top: 1px solid #e1e1e1;
   border-bottom: 1px solid #e1e1e1;
   padding: 22px 0;
 }
-/* line 167, ../scss/_main.scss */
+/* line 168, ../scss/_main.scss */
 .header-bottom .container {
   text-align: center;
   position: relative;
 }
 
-/* line 173, ../scss/_main.scss */
+/* line 174, ../scss/_main.scss */
 .menu {
   position: absolute;
   top: 50%;
@@ -453,13 +454,13 @@ body {
   margin-top: -14px;
 }
 
-/* line 180, ../scss/_main.scss */
+/* line 181, ../scss/_main.scss */
 .icon-menu {
   cursor: pointer;
   padding: 12px 0;
   display: inline-block;
 }
-/* line 184, ../scss/_main.scss */
+/* line 185, ../scss/_main.scss */
 .icon-menu span {
   position: relative;
   display: block;
@@ -468,7 +469,7 @@ body {
   background: #222;
   transition: all .2s ease-in-out;
 }
-/* line 191, ../scss/_main.scss */
+/* line 192, ../scss/_main.scss */
 .icon-menu span:before, .icon-menu span:after {
   position: absolute;
   background: #222;
@@ -478,51 +479,51 @@ body {
   left: 0;
   transition: all .2s ease-in-out;
 }
-/* line 200, ../scss/_main.scss */
+/* line 201, ../scss/_main.scss */
 .icon-menu span:before {
   top: -5px;
 }
-/* line 203, ../scss/_main.scss */
+/* line 204, ../scss/_main.scss */
 .icon-menu span:after {
   top: 5px;
 }
 
-/* line 210, ../scss/_main.scss */
+/* line 211, ../scss/_main.scss */
 .icon-menu.active span {
   background: transparent;
 }
-/* line 212, ../scss/_main.scss */
+/* line 213, ../scss/_main.scss */
 .icon-menu.active span:before {
   transform: rotate(45deg) translate(4px, 4px);
 }
-/* line 215, ../scss/_main.scss */
+/* line 216, ../scss/_main.scss */
 .icon-menu.active span:after {
   transform: rotate(-45deg) translate(3px, -3px);
 }
 
-/* line 221, ../scss/_main.scss */
+/* line 222, ../scss/_main.scss */
 .header-bottom nav {
   display: inline-block;
 }
 
-/* line 225, ../scss/_main.scss */
+/* line 226, ../scss/_main.scss */
 .top-navigation {
   list-style: none;
   padding: 0;
   margin: 0;
   display: inline-block;
 }
-/* line 228, ../scss/_main.scss */
+/* line 229, ../scss/_main.scss */
 .top-navigation li {
   display: inline-block;
   margin-right: 50px;
 }
-/* line 231, ../scss/_main.scss */
+/* line 232, ../scss/_main.scss */
 .top-navigation li:last-child {
   margin-right: 0;
 }
 
-/* line 237, ../scss/_main.scss */
+/* line 238, ../scss/_main.scss */
 .top-navigation li a {
   display: inline-block;
   font-size: 12px;
@@ -535,7 +536,7 @@ body {
   position: relative;
 }
 
-/* line 247, ../scss/_main.scss */
+/* line 248, ../scss/_main.scss */
 .sub-nav {
   position: absolute;
   right: 19px;
@@ -544,18 +545,18 @@ body {
   margin-top: -8px;
 }
 
-/* line 255, ../scss/_main.scss */
+/* line 256, ../scss/_main.scss */
 .wishlist,
 .search {
   display: inline-block;
 }
 
-/* line 260, ../scss/_main.scss */
+/* line 261, ../scss/_main.scss */
 .wishlist {
   margin-right: 27px;
 }
 
-/* line 263, ../scss/_main.scss */
+/* line 264, ../scss/_main.scss */
 .wishlist a {
   display: inline-block;
   background-position: 0 -21px;
@@ -563,11 +564,11 @@ body {
   width: 17px;
 }
 
-/* line 268, ../scss/_main.scss */
+/* line 269, ../scss/_main.scss */
 .search {
   position: relative;
 }
-/* line 270, ../scss/_main.scss */
+/* line 271, ../scss/_main.scss */
 .search::before {
   content: "";
   display: block;
@@ -577,12 +578,12 @@ body {
   top: -5px;
   border-left: 1px dotted #999;
 }
-/* line 279, ../scss/_main.scss */
+/* line 280, ../scss/_main.scss */
 .search.active::before {
   display: none;
 }
 
-/* line 284, ../scss/_main.scss */
+/* line 285, ../scss/_main.scss */
 .search-icon {
   display: block;
   z-index: 10;
@@ -592,7 +593,7 @@ body {
   width: 15px;
 }
 
-/* line 291, ../scss/_main.scss */
+/* line 292, ../scss/_main.scss */
 .search input {
   display: none;
   padding: 5px 20px 5px 10px;
@@ -608,41 +609,41 @@ body {
   right: -5px;
   height: 25px;
 }
-/* line 305, ../scss/_main.scss */
+/* line 306, ../scss/_main.scss */
 .search input:focus {
   width: 200px;
   border: 1px solid #111;
 }
 
-/* line 312, ../scss/_main.scss */
+/* line 313, ../scss/_main.scss */
 .search.active input {
   display: block;
 }
 
-/* line 317, ../scss/_main.scss */
+/* line 318, ../scss/_main.scss */
 .main {
   padding: 47px 0 95px 0;
 }
 
-/* line 321, ../scss/_main.scss */
+/* line 322, ../scss/_main.scss */
 .product-images__container {
   width: 656px;
   font-size: 0;
 }
 
-/* line 326, ../scss/_main.scss */
+/* line 327, ../scss/_main.scss */
 .product-image__big {
   width: 656px;
   height: 683px;
   margin-bottom: 20px;
 }
 
-/* line 332, ../scss/_main.scss */
+/* line 333, ../scss/_main.scss */
 .product-image__big,
 .product-image__small {
   background-color: #e1e1e1;
 }
-/* line 335, ../scss/_main.scss */
+/* line 336, ../scss/_main.scss */
 .product-image__big img,
 .product-image__big a,
 .product-image__small img,
@@ -651,12 +652,12 @@ body {
   height: 100%;
 }
 
-/* line 342, ../scss/_main.scss */
+/* line 343, ../scss/_main.scss */
 .product-images__small_container {
   overflow: hidden;
 }
 
-/* line 346, ../scss/_main.scss */
+/* line 347, ../scss/_main.scss */
 .product-images__small_container ul {
   list-style: none;
   padding: 0;
@@ -664,7 +665,7 @@ body {
   width: 9999999px;
   height: 170px;
 }
-/* line 350, ../scss/_main.scss */
+/* line 351, ../scss/_main.scss */
 .product-images__small_container ul li {
   vertical-align: top;
   width: 144px;
@@ -673,31 +674,31 @@ body {
   margin-right: 24px;
   display: inline-block;
 }
-/* line 357, ../scss/_main.scss */
+/* line 358, ../scss/_main.scss */
 .product-images__small_container ul li:last-child {
   margin-right: 0;
 }
-/* line 361, ../scss/_main.scss */
+/* line 362, ../scss/_main.scss */
 .product-images__small_container ul li.active {
   border: 1px solid #e1e1e1;
 }
-/* line 364, ../scss/_main.scss */
+/* line 365, ../scss/_main.scss */
 .product-images__small_container ul li:hover {
   border: 1px solid #e1e1e1;
 }
 
-/* line 369, ../scss/_main.scss */
+/* line 370, ../scss/_main.scss */
 .product-info__container {
   width: 462px;
 }
 
-/* line 373, ../scss/_main.scss */
+/* line 374, ../scss/_main.scss */
 .product-back {
   padding-top: 5px;
   font-size: 14;
   margin-bottom: 38px;
 }
-/* line 377, ../scss/_main.scss */
+/* line 378, ../scss/_main.scss */
 .product-back::before {
   content: "";
   display: inline-block;
@@ -705,25 +706,25 @@ body {
   height: 7px;
   width: 4px;
 }
-/* line 382, ../scss/_main.scss */
+/* line 383, ../scss/_main.scss */
 .product-back a {
   text-decoration: none;
   color: inherit;
   color: #68899a;
 }
 
-/* line 388, ../scss/_main.scss */
+/* line 389, ../scss/_main.scss */
 .product-details .title h1 {
   font-size: 24px;
   word-spacing: -0.10em;
 }
 
-/* line 393, ../scss/_main.scss */
+/* line 394, ../scss/_main.scss */
 .product-rating {
   margin-bottom: 20px;
 }
 
-/* line 397, ../scss/_main.scss */
+/* line 398, ../scss/_main.scss */
 .review-add {
   text-transform: uppercase;
   font-size: 12px;
@@ -732,7 +733,7 @@ body {
   display: inline-block;
 }
 
-/* line 405, ../scss/_main.scss */
+/* line 406, ../scss/_main.scss */
 .rating {
   display: inline-block;
   background-position: 0 -127px;
@@ -744,13 +745,13 @@ body {
   top: 1px;
 }
 
-/* line 414, ../scss/_main.scss */
+/* line 415, ../scss/_main.scss */
 .reviews-quantity {
   margin-left: 5px;
   margin-right: 25px;
   position: relative;
 }
-/* line 418, ../scss/_main.scss */
+/* line 419, ../scss/_main.scss */
 .reviews-quantity::after {
   content: "";
   display: block;
@@ -762,32 +763,32 @@ body {
   top: 3px;
 }
 
-/* line 430, ../scss/_main.scss */
+/* line 431, ../scss/_main.scss */
 .star1 {
   background-position: -60px -127px;
 }
 
-/* line 434, ../scss/_main.scss */
+/* line 435, ../scss/_main.scss */
 .star2 {
   background-position: -45px -127px;
 }
 
-/* line 438, ../scss/_main.scss */
+/* line 439, ../scss/_main.scss */
 .star3 {
   background-position: -30px -127px;
 }
 
-/* line 442, ../scss/_main.scss */
+/* line 443, ../scss/_main.scss */
 .star4 {
   background-position: -15px -127px;
 }
 
-/* line 446, ../scss/_main.scss */
+/* line 447, ../scss/_main.scss */
 .star5 {
   background-position: 0 -127px;
 }
 
-/* line 450, ../scss/_main.scss */
+/* line 451, ../scss/_main.scss */
 .product-price {
   color: #68899a;
   font-size: 24px;
@@ -795,17 +796,17 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 457, ../scss/_main.scss */
+/* line 458, ../scss/_main.scss */
 .details__point-value {
   color: #68899a;
 }
 
-/* line 461, ../scss/_main.scss */
+/* line 462, ../scss/_main.scss */
 .product-details__point {
   margin-bottom: 25px;
 }
 
-/* line 465, ../scss/_main.scss */
+/* line 466, ../scss/_main.scss */
 .product-details__point > ul {
   list-style: none;
   padding: 0;
@@ -813,20 +814,20 @@ body {
   font-weight: bold;
 }
 
-/* line 470, ../scss/_main.scss */
+/* line 471, ../scss/_main.scss */
 #tags {
   list-style: none;
   padding: 0;
   margin: 0;
   display: inline-block;
 }
-/* line 473, ../scss/_main.scss */
+/* line 474, ../scss/_main.scss */
 #tags li {
   display: inline-block;
   margin-right: 3px;
 }
 
-/* line 479, ../scss/_main.scss */
+/* line 480, ../scss/_main.scss */
 #tags li a {
   text-decoration: none;
   color: inherit;
@@ -835,12 +836,12 @@ body {
   display: inline-block;
 }
 
-/* line 486, ../scss/_main.scss */
+/* line 487, ../scss/_main.scss */
 #tags li:not(:last-child)::after {
   content: ", ";
 }
 
-/* line 490, ../scss/_main.scss */
+/* line 491, ../scss/_main.scss */
 .product-description {
   font-weight: 300;
   margin-bottom: 35px;
@@ -848,51 +849,51 @@ body {
   line-height: 22px;
 }
 
-/* line 497, ../scss/_main.scss */
+/* line 498, ../scss/_main.scss */
 .product-description ul {
   list-style: none;
   padding: 0;
   margin: 0;
   padding-top: 20px;
 }
-/* line 500, ../scss/_main.scss */
+/* line 501, ../scss/_main.scss */
 .product-description ul li::before {
   content: "• ";
 }
 
-/* line 505, ../scss/_main.scss */
+/* line 506, ../scss/_main.scss */
 .product-select {
   margin-bottom: 20px;
 }
 
-/* line 509, ../scss/_main.scss */
+/* line 510, ../scss/_main.scss */
 .selects-container {
   margin-bottom: 30px;
 }
-/* line 511, ../scss/_main.scss */
+/* line 512, ../scss/_main.scss */
 .selects-container select {
   display: none;
 }
 
-/* line 516, ../scss/_main.scss */
+/* line 517, ../scss/_main.scss */
 .select-wrapper {
   vertical-align: top;
   display: inline-block;
   margin-right: 25px;
 }
 
-/* line 522, ../scss/_main.scss */
+/* line 523, ../scss/_main.scss */
 .select-wrapper.sQty {
   margin-right: 0;
 }
 
-/* line 526, ../scss/_main.scss */
+/* line 527, ../scss/_main.scss */
 .cSelect {
   position: relative;
   z-index: 10;
 }
 
-/* line 531, ../scss/_main.scss */
+/* line 532, ../scss/_main.scss */
 .cSelect-name {
   font-weight: bold;
   text-transform: uppercase;
@@ -900,7 +901,7 @@ body {
   margin-bottom: 15px;
 }
 
-/* line 538, ../scss/_main.scss */
+/* line 539, ../scss/_main.scss */
 .cSelect-current,
 .cSelect-option {
   cursor: pointer;
@@ -915,7 +916,7 @@ body {
   position: relative;
 }
 
-/* line 552, ../scss/_main.scss */
+/* line 553, ../scss/_main.scss */
 .sQty input {
   outline: none;
   width: 70px;
@@ -928,7 +929,7 @@ body {
   line-height: 13px;
 }
 
-/* line 564, ../scss/_main.scss */
+/* line 565, ../scss/_main.scss */
 .cSelect-current::before {
   content: "";
   position: absolute;
@@ -940,7 +941,7 @@ body {
   width: 8px;
 }
 
-/* line 573, ../scss/_main.scss */
+/* line 574, ../scss/_main.scss */
 .cSelect-optns {
   background-color: #fff;
   list-style: none;
@@ -950,32 +951,32 @@ body {
   top: 100%;
   display: none;
 }
-/* line 579, ../scss/_main.scss */
+/* line 580, ../scss/_main.scss */
 .cSelect-optns li:first-child {
   display: none;
 }
 
-/* line 584, ../scss/_main.scss */
+/* line 585, ../scss/_main.scss */
 .cSelect-optns.active {
   display: block;
 }
 
-/* line 588, ../scss/_main.scss */
+/* line 589, ../scss/_main.scss */
 .cSelect-option {
   margin-top: -1px;
 }
-/* line 590, ../scss/_main.scss */
+/* line 591, ../scss/_main.scss */
 .cSelect-option:hover {
   border: none;
   outline: 1px solid #a1a1a1;
 }
 
-/* line 596, ../scss/_main.scss */
+/* line 597, ../scss/_main.scss */
 .iQty-wrapper {
   position: relative;
 }
 
-/* line 600, ../scss/_main.scss */
+/* line 601, ../scss/_main.scss */
 .qty-btn {
   position: absolute;
   right: 0;
@@ -984,7 +985,7 @@ body {
   border: 1px solid #e1e1e1;
   background-color: #fff;
 }
-/* line 607, ../scss/_main.scss */
+/* line 608, ../scss/_main.scss */
 .qty-btn::before {
   content: "";
   position: absolute;
@@ -997,39 +998,39 @@ body {
   width: 8px;
 }
 
-/* line 618, ../scss/_main.scss */
+/* line 619, ../scss/_main.scss */
 .qty-btn__top {
   top: 0;
 }
 
-/* line 622, ../scss/_main.scss */
+/* line 623, ../scss/_main.scss */
 .qty-btn__bottom {
   bottom: 0;
 }
 
-/* line 626, ../scss/_main.scss */
+/* line 627, ../scss/_main.scss */
 .qty-btn__top::before {
   transform: rotate(180deg);
 }
 
-/* line 630, ../scss/_main.scss */
+/* line 631, ../scss/_main.scss */
 .clear-selection-wrapper {
   margin-bottom: 33px;
 }
 
-/* line 634, ../scss/_main.scss */
+/* line 635, ../scss/_main.scss */
 .clear-selection-wrapper a {
   font-size: 12px;
   text-transform: uppercase;
   color: inherit;
 }
 
-/* line 640, ../scss/_main.scss */
+/* line 641, ../scss/_main.scss */
 .cart-addbtns-wrapper {
   margin-bottom: 39px;
 }
 
-/* line 643, ../scss/_main.scss */
+/* line 644, ../scss/_main.scss */
 .cart-btn {
   display: inline-block;
   text-transform: uppercase;
@@ -1041,14 +1042,14 @@ body {
   box-sizing: border-box;
 }
 
-/* line 654, ../scss/_main.scss */
+/* line 655, ../scss/_main.scss */
 .addtocart {
   background-color: #111;
   color: #fff;
   border: none;
 }
 
-/* line 660, ../scss/_main.scss */
+/* line 661, ../scss/_main.scss */
 .addtowishlist {
   background-color: #fff;
   color: #111;
@@ -1056,12 +1057,12 @@ body {
   padding-right: 50px;
   padding-top: 15px;
 }
-/* line 666, ../scss/_main.scss */
+/* line 667, ../scss/_main.scss */
 .addtowishlist span {
   vertical-align: middle;
   position: relative;
 }
-/* line 670, ../scss/_main.scss */
+/* line 671, ../scss/_main.scss */
 .addtowishlist span::before {
   content: "";
   display: block;
@@ -1073,7 +1074,7 @@ body {
   width: 17px;
 }
 
-/* line 680, ../scss/_main.scss */
+/* line 681, ../scss/_main.scss */
 .share-container {
   position: relative;
   padding: 15px 0;
@@ -1081,7 +1082,7 @@ body {
   border-bottom: 1px solid #e1e1e1;
 }
 
-/* line 687, ../scss/_main.scss */
+/* line 688, ../scss/_main.scss */
 .share-text {
   position: absolute;
   height: 12px;
@@ -1094,19 +1095,19 @@ body {
   font-weight: bold;
 }
 
-/* line 699, ../scss/_main.scss */
+/* line 700, ../scss/_main.scss */
 .share-buttons {
   background-position: 0 -76px;
   height: 21px;
   width: 331px;
 }
 
-/* line 703, ../scss/_main.scss */
+/* line 704, ../scss/_main.scss */
 .main-footer {
   border-top: 1px solid #e1e1e1;
 }
 
-/* line 707, ../scss/_main.scss */
+/* line 708, ../scss/_main.scss */
 .main-footer .container {
   text-align: center;
   color: #b5b5b5;
