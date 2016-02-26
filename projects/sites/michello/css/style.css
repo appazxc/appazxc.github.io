@@ -267,9 +267,9 @@ th {
   padding: 0;
 }
 
-/* line 232, icons/*.png */
+/* line 240, icons/*.png */
 .icons-sprite, .icon-basket::before, .icon-call::after, .icon-skype::after, .star-rating li, .star-rating li.active, .product-offer > a::before, .product-added span::before, .product-added a::before, .advantages-block .promote-description-wrapper span, .event-view-more-btn::before, .event-party::after, .event-culture::after, .event-meeting::after, .reservation-form button::before, .team-choose-buttons a.left-btn::before, .team-choose-buttons a.right-btn::before, .follow-block a.twtr::before, .follow-block a.insta::before, .share-btn::before, .about-us-description::before, .social-fb::before, .social-twtr::before, .social-pinterest::before, .social-dribble::before {
-  background-image: url('../img/icons-se488b5cca9.png');
+  background-image: url('../img/icons-sa13aff1b0c.png');
   background-repeat: no-repeat;
 }
 
@@ -621,14 +621,14 @@ body {
 
 /* line 355, ../sass/_main.scss */
 .icon-call::after {
-  background-position: 0 -238px;
+  background-position: 0 -247px;
   height: 24px;
   width: 24px;
 }
 
 /* line 359, ../sass/_main.scss */
 .icon-skype::after {
-  background-position: 0 -308px;
+  background-position: 0 -317px;
   height: 26px;
   width: 25px;
 }
@@ -929,17 +929,17 @@ body {
 .star-rating li {
   display: inline-block;
   margin-right: 2px;
-  background-position: 0 -388px;
+  background-position: 0 -397px;
   height: 10px;
   width: 10px;
 }
 /* line 59, ../../../../../../../Programs/Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .star-rating li:active, .star-rating li.star_rating-active {
-  background-position: 0 -398px;
+  background-position: 0 -407px;
 }
 /* line 598, ../sass/_main.scss */
 .star-rating li.active {
-  background-position: 0 -398px;
+  background-position: 0 -407px;
   height: 10px;
   width: 10px;
 }
@@ -997,7 +997,7 @@ body {
   left: 10px;
   top: 50%;
   margin-top: -6px;
-  background-position: 0 -117px;
+  background-position: 0 -126px;
   height: 13px;
   width: 14px;
 }
@@ -1033,7 +1033,7 @@ body {
   left: 10px;
   top: 50%;
   margin-top: -6px;
-  background-position: 0 -141px;
+  background-position: 0 -150px;
   height: 13px;
   width: 13px;
 }
@@ -1060,7 +1060,7 @@ body {
   top: 50%;
   margin-top: -6px;
   margin-left: -4px;
-  background-position: 0 -130px;
+  background-position: 0 -139px;
   height: 11px;
   width: 10px;
 }
@@ -1410,7 +1410,7 @@ body {
   content: "";
   display: block;
   position: absolute;
-  background-position: 0 -262px;
+  background-position: 0 -271px;
   height: 16px;
   width: 13px;
   top: 50%;
@@ -1444,7 +1444,7 @@ body {
   position: absolute;
   display: block;
   content: "";
-  background-position: 0 -184px;
+  background-position: 0 -193px;
   height: 15px;
   width: 14px;
   top: 7px;
@@ -1456,7 +1456,7 @@ body {
   position: absolute;
   display: block;
   content: "";
-  background-position: 0 -154px;
+  background-position: 0 -163px;
   height: 14px;
   width: 14px;
   top: 7px;
@@ -1468,7 +1468,7 @@ body {
   position: absolute;
   display: block;
   content: "";
-  background-position: 0 -168px;
+  background-position: 0 -177px;
   height: 16px;
   width: 16px;
   top: 7px;
@@ -1601,7 +1601,7 @@ body {
   top: 50%;
   left: 15px;
   margin-top: -7px;
-  background-position: 0 -221px;
+  background-position: 0 -230px;
   height: 17px;
   width: 17px;
 }
@@ -1663,7 +1663,7 @@ body {
   left: 50%;
   margin-top: -5px;
   margin-left: -5px;
-  background-position: 0 -211px;
+  background-position: 0 -220px;
   height: 10px;
   width: 7px;
 }
@@ -1676,7 +1676,7 @@ body {
   left: 50%;
   margin-top: -5px;
   margin-left: -2px;
-  background-position: 0 -278px;
+  background-position: 0 -287px;
   height: 10px;
   width: 7px;
 }
@@ -1766,7 +1766,7 @@ body {
   margin-right: 10px;
   vertical-align: middle;
   margin-top: -3px;
-  background-position: 0 -408px;
+  background-position: 0 -417px;
   height: 11px;
   width: 12px;
 }
@@ -1776,7 +1776,7 @@ body {
   display: inline-block;
   margin-right: 10px;
   vertical-align: middle;
-  background-position: 0 -199px;
+  background-position: 0 -208px;
   height: 12px;
   width: 12px;
 }
@@ -1992,7 +1992,7 @@ body {
   top: 50%;
   left: 15px;
   margin-top: -12px;
-  background-position: 0 -288px;
+  background-position: 0 -297px;
   height: 20px;
   width: 20px;
 }
@@ -2505,7 +2505,7 @@ input[id=person-7]:checked ~ .reviews-wrapper .reviews-container {
   left: 50%;
   margin-top: -7px;
   margin-left: -2px;
-  background-position: 0 -348px;
+  background-position: 0 -357px;
   height: 15px;
   width: 6px;
 }
@@ -2519,7 +2519,7 @@ input[id=person-7]:checked ~ .reviews-wrapper .reviews-container {
   left: 50%;
   margin-top: -5px;
   margin-left: -6px;
-  background-position: 0 -377px;
+  background-position: 0 -386px;
   height: 11px;
   width: 14px;
 }
@@ -2533,7 +2533,7 @@ input[id=person-7]:checked ~ .reviews-wrapper .reviews-container {
   left: 50%;
   margin-top: -7px;
   margin-left: -6px;
-  background-position: 0 -363px;
+  background-position: 0 -372px;
   height: 14px;
   width: 14px;
 }
@@ -2547,7 +2547,7 @@ input[id=person-7]:checked ~ .reviews-wrapper .reviews-container {
   left: 50%;
   margin-top: -7px;
   margin-left: -6px;
-  background-position: 0 -334px;
+  background-position: 0 -343px;
   height: 14px;
   width: 14px;
 }
