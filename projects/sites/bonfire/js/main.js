@@ -13,7 +13,7 @@ function bonfire() {
 
 	setTimeout(function(){
 		popup.classList.remove("active");
-	}, 97000)
+	}, 7000)
 
 	popupCloseBtn.onclick = function() {
 		console.log("aaaa")

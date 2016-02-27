@@ -1,0 +1,21 @@
+{
+  "name": "bonfire",
+  "homepage": "https://github.com/appazxc/appazxc.github.io",
+  "authors": [
+    "Dmitry Trenkov <mirkul@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}
