@@ -23,6 +23,7 @@ body {
 
 .exercise {
 	min-height: 55px;
+	margin-bottom: 100px;
 }
 
 .exercise,
@@ -40,7 +41,7 @@ body {
 
 .challenge-row {
 	display: flex;
-	min-height: 250px;
+	min-height: 150px;
 	flex-direction: column;
 	font-size: 0;
 	justify-content: flex-end;
@@ -51,15 +52,19 @@ body {
 	z-index: 10;
 	padding-left: 33px;
 	padding-right: 58px;
+	text-align: left;
+	min-height: 50px;
 }
 
 .challenge-task {
 	display: inline-block;
-	float: left;
+	vertical-align: bottom;
 	font-size: 18px;
+	text-align: center;
 }
 
 .answer-container {
+	text-align: center;
 	display: inline-block;
 	position: relative;
 	font-size: inherit;
@@ -81,14 +86,9 @@ body {
 .challenge-image {
 	text-align: left;
 }
+
 .challenge-task__image {
 	display: block;
-	width: 40px;
-	background-image: url(../img/arrow.svg);
-	background-repeat: no-repeat;
-	height: 70px;
-	background-position: bottom center;
-	background-size: 100%;
 }
 
 .congrat {

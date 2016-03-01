@@ -1,3 +1,10 @@
+if (!('remove' in Element.prototype)) {
+	Element.prototype.remove = function() {
+		if (this.parentNode) {
+			this.parentNode.removeChild(this);
+		}
+	};
+}
 
 (function(window){
 
@@ -28,7 +35,7 @@
 				randomNums: 1,
 				answerArr: [10,15],
 				taskImageUrl: "img/sprite.png",
-				challengeImage: "../img/arrow.svg",
+				challengeImage: "img/arrow.svg",
 				baseStep: 39, // px
 				tasksPadding: [10, 10],
 				sumTask: ".task-wrapper"
@@ -120,16 +127,20 @@
 					return;
 				}
 				var challengeWrap = document.querySelector(params.sumTask).querySelector(".challenge-tasks");
-				var taskImage = elementCreate("div")
+				var taskImage = elementCreate("img")
 				var challengeTask = elementCreate("div");
 
 				challengeTask.classList.add("challenge-task");
+				taskImage.src = params.challengeImage;
 				taskImage.classList.add("challenge-task__image");
 				taskImage.style.width = instances[challengeNum].answer.innerHTML * params.baseStep + "px"; 
+
+				instances[challengeNum].question = challengeTask;
+
 				challengeTask.appendChild(createAnswerCont(challengeNum));
 				challengeTask.appendChild(taskImage);
-				instances[challengeNum].question = challengeTask;
 				challengeWrap.appendChild(challengeTask);
+
 				challengeNum++;
 			}
 		}
