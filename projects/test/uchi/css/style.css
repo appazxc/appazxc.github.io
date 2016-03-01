@@ -20,18 +20,22 @@ body {
 	margin-bottom: 50px;
 }
 
+
 .exercise {
+	min-height: 55px;
+}
+
+.exercise,
+.exercise .answer-container {
 	display: inline-block;
 	font-size: 35px;
 }
 
 
-.exercise .answer-container {
-	font-size: 25px;
-}
-
 .exercise span {
 	margin-right: 15px;
+	margin-top: 10px;
+	display: inline-block;
 }
 
 .challenge-row {
@@ -59,6 +63,7 @@ body {
 	display: inline-block;
 	position: relative;
 	font-size: inherit;
+	min-height: 28px;
 }
 
 .answer-container input {

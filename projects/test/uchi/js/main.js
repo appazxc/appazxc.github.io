@@ -185,17 +185,22 @@
 					if (+self.value === result && self.value === self.dataset.answer) {
 						self.style.color = "green";
 
-						clearEvents()
-						congrat("Поздравляем!")
+						answerDiv.appendChild(elementCreate("span", self.dataset.answer))
+
+						clearEvents();
+						congrat("Поздравляем!");
 						moreBtn.style.display = "block";
 
 					} else if (self.value === self.dataset.answer) {
 						self.style.color = "green";
 
+						answerDiv.appendChild(elementCreate("span", self.dataset.answer))
+
 						clearEvents();
 						reColor("");
 						congrat("Правильно!");
 						createChallenge();
+
 					} else {
 						self.style.color = "red";
 						reColor("orange");
@@ -212,9 +217,8 @@
 					}
 
 					function clearEvents() {
-						self.removeEventListener("keypress", checkInput)
+						self.remove()
 						button.remove();
-						keyupEvent.onkeyup = null;
 					}
 				}
 			}
