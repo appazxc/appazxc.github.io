@@ -54,6 +54,7 @@ body {
 	padding-right: 58px;
 	text-align: left;
 	min-height: 50px;
+	position: relative;
 }
 
 .challenge-task {
@@ -89,6 +90,7 @@ body {
 
 .challenge-task__image {
 	display: block;
+	height: auto;
 }
 
 .congrat {

@@ -193,19 +193,19 @@ if (!('remove' in Element.prototype)) {
 					var answerDiv = self.parentNode;
 					var taskDiv = answerDiv.parentNode;
 
-					if (+self.value === result && self.value === self.dataset.answer) {
+					if (+self.value === result && self.value === self.getAttribute('data-answer')) {
 						self.style.color = "green";
 
-						answerDiv.appendChild(elementCreate("span", self.dataset.answer))
+						answerDiv.appendChild(elementCreate("span", self.getAttribute('data-answer')))
 
 						clearEvents();
 						congrat("Поздравляем!");
 						moreBtn.style.display = "block";
 
-					} else if (self.value === self.dataset.answer) {
+					} else if (self.value === self.getAttribute('data-answer')) {
 						self.style.color = "green";
 
-						answerDiv.appendChild(elementCreate("span", self.dataset.answer))
+						answerDiv.appendChild(elementCreate("span", self.getAttribute('data-answer')))
 
 						clearEvents();
 						reColor("");
