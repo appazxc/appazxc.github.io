@@ -1,0 +1,110 @@
+html {
+	height: 100%;
+}
+
+
+body {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #fcf3d0;
+}
+
+.task-wrapper {
+	text-align: center;
+	padding: 30px 40px 40px 40px;
+}
+
+.task-wrapper h1 {
+	margin-bottom: 50px;
+}
+
+.exercise {
+	display: inline-block;
+	font-size: 35px;
+}
+
+
+.exercise .answer-container {
+	font-size: 25px;
+}
+
+.exercise span {
+	margin-right: 15px;
+}
+
+.challenge-row {
+	display: flex;
+	min-height: 250px;
+	flex-direction: column;
+	font-size: 0;
+	justify-content: flex-end;
+}
+
+.challenge-tasks {
+	margin-bottom: -10px;
+	z-index: 10;
+	padding-left: 33px;
+	padding-right: 58px;
+}
+
+.challenge-task {
+	display: inline-block;
+	float: left;
+	font-size: 18px;
+}
+
+.answer-container {
+	display: inline-block;
+	position: relative;
+	font-size: inherit;
+}
+
+.answer-container input {
+	width: 40px;
+	text-align: center;
+}
+
+.answer-container button {
+	position: absolute;
+	left: 110%;
+	top: 0;
+	visibility: hidden;
+}
+
+.challenge-image {
+	text-align: left;
+}
+.challenge-task__image {
+	display: block;
+	width: 40px;
+	background-image: url(../img/arrow.svg);
+	background-repeat: no-repeat;
+	height: 70px;
+	background-position: bottom center;
+	background-size: 100%;
+}
+
+.congrat {
+	padding: 20px 30px;
+	box-sizing: border-box;
+	color: green;
+	font-size: 20px;
+	text-transform: uppercase;
+	border: 3px solid #2874A6;
+	background-color: #F9E79F;
+	position: fixed;
+	top: 30%;
+	left: 45%;
+	display: none;
+	border-radius: 10px;
+	z-index: 20;
+}
+
+#moreBtn {
+	display: none;
+	position: fixed;
+	top: 50%;
+	right: 5px;
+}
