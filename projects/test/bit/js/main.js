@@ -5,9 +5,9 @@
 	(function(){
 
 		var sliders = ["img/slider1.jpg","img/slider2.jpg","img/slider3.jpg","img/slider4.jpg","img/slider5.jpg"]
-
+		preloadImages(sliders);
 		var slideBtns = document.querySelector(".slide-pagination");
-
+		
 		slideBtns.addEventListener("click", changeSlide);
 
 		function changeSlide() {
@@ -38,6 +38,14 @@
 			}
 			event.preventDefault();
 		}
+
+		function preloadImages(images){
+			images.forEach(function(src){
+				var img = new Image();
+				img.src = src;
+			});
+		}
+		
 	})();
 
 	(function(){
