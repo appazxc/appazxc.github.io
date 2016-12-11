@@ -8,9 +8,8 @@
 		preloadImages(sliders);
 		var slideBtns = document.querySelector(".slide-pagination");
 		
-		slideBtns.addEventListener("click", changeSlide);
+		slideBtns.addEventListener("click", function changeSlide(event) {
 
-		function changeSlide() {
 			var target = event.target;
 
 			if (target.tagName !== "A") return;
@@ -37,7 +36,8 @@
 				}
 			}
 			event.preventDefault();
-		}
+			return false;
+		});
 
 		function preloadImages(images){
 			images.forEach(function(src){

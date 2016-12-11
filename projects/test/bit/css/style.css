@@ -288,6 +288,7 @@ body {
 }
 .header-top .container .right > a {
   margin-left: 25px;
+  color: inherit;
 }
 .header-top .container .right > a .icon {
   margin-top: -3px;
